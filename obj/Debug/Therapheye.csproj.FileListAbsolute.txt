@@ -27,4 +27,9 @@ C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Thera
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.FormVisNoc.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlPelli.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlIshihara.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlAlternar.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.FormMov.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlMultiVista.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlAmsler.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlMiopia.resources

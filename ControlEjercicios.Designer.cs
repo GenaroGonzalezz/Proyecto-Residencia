@@ -98,6 +98,7 @@ namespace Therapheye
             this.button3.Text = "Movimiento";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -109,8 +110,9 @@ namespace Therapheye
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(180, 180);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Visión Nocturna\r\n";
+            this.button4.Text = "Integridad Ocular";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

@@ -32,14 +32,19 @@ namespace Therapheye
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.controlAmsler1 = new Therapheye.ControlAmsler();
             this.controlIshihara1 = new Therapheye.ControlIshihara();
             this.controlPelli1 = new Therapheye.ControlPelli();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -74,14 +79,37 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(12, 126);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(177, 51);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Degeneración Macular";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // controlAmsler1
+            // 
+            this.controlAmsler1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlAmsler1.Location = new System.Drawing.Point(206, 3);
+            this.controlAmsler1.Name = "controlAmsler1";
+            this.controlAmsler1.Size = new System.Drawing.Size(735, 394);
+            this.controlAmsler1.TabIndex = 3;
+            this.controlAmsler1.Visible = false;
+            // 
             // controlIshihara1
             // 
             this.controlIshihara1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
             this.controlIshihara1.Location = new System.Drawing.Point(201, 1);
             this.controlIshihara1.Name = "controlIshihara1";
-            this.controlIshihara1.Size = new System.Drawing.Size(747, 394);
+            this.controlIshihara1.Size = new System.Drawing.Size(749, 394);
             this.controlIshihara1.TabIndex = 2;
             this.controlIshihara1.Visible = false;
+            this.controlIshihara1.Load += new System.EventHandler(this.controlIshihara1_Load);
             // 
             // controlPelli1
             // 
@@ -94,11 +122,24 @@ namespace Therapheye
             this.controlPelli1.Visible = false;
             this.controlPelli1.Load += new System.EventHandler(this.controlPelli1_Load);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(12, 183);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(177, 51);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Degeneración Macular";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // FormVisNoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 395);
+            this.Controls.Add(this.controlAmsler1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.controlIshihara1);
             this.Controls.Add(this.controlPelli1);
@@ -120,5 +161,8 @@ namespace Therapheye
         private ControlPelli controlPelli1;
         private System.Windows.Forms.Button button2;
         private ControlIshihara controlIshihara1;
+        private System.Windows.Forms.Button button3;
+        private ControlAmsler controlAmsler1;
+        private System.Windows.Forms.Button button4;
     }
 }
