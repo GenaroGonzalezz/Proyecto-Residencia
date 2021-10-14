@@ -19,12 +19,25 @@ namespace Therapheye
 
         private void button1_Click(object sender, EventArgs e)
         {
+            controlPelli1.BringToFront();
             controlPelli1.Visible = true;
+            this.ControlBox = false;
+
+            controlIshihara1.Visible = false;
         }
 
         private void controlPelli1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controlIshihara1.BringToFront();
+            controlIshihara1.Visible = true;
+            this.ControlBox = false;
+
+            controlPelli1.Visible = false;
         }
     }
 }

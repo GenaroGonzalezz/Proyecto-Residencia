@@ -40,6 +40,7 @@ namespace Therapheye
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -48,11 +49,10 @@ namespace Therapheye
             this.controlEjercicios1 = new Therapheye.ControlEjercicios();
             this.controlTestInicial2 = new Therapheye.ControlTestInicial();
             this.controlInicio2 = new Therapheye.ControlInicio();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -208,6 +208,16 @@ namespace Therapheye
             this.panel4.TabIndex = 3;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Therapheye.Properties.Resources.Logo_2;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(-22, 295);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(164, 117);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Therapheye.Properties.Resources.Logo_1;
@@ -249,43 +259,36 @@ namespace Therapheye
             this.controlTestFinal1.Location = new System.Drawing.Point(160, 65);
             this.controlTestFinal1.Margin = new System.Windows.Forms.Padding(8);
             this.controlTestFinal1.Name = "controlTestFinal1";
-            this.controlTestFinal1.Size = new System.Drawing.Size(730, 296);
+            this.controlTestFinal1.Size = new System.Drawing.Size(730, 322);
             this.controlTestFinal1.TabIndex = 15;
+            this.controlTestFinal1.Load += new System.EventHandler(this.controlTestFinal1_Load);
             // 
             // controlEjercicios1
             // 
-            this.controlEjercicios1.Location = new System.Drawing.Point(142, 65);
+            this.controlEjercicios1.Location = new System.Drawing.Point(155, 81);
             this.controlEjercicios1.Margin = new System.Windows.Forms.Padding(2);
             this.controlEjercicios1.Name = "controlEjercicios1";
-            this.controlEjercicios1.Size = new System.Drawing.Size(748, 349);
+            this.controlEjercicios1.Size = new System.Drawing.Size(748, 306);
             this.controlEjercicios1.TabIndex = 14;
             this.controlEjercicios1.Visible = false;
+            this.controlEjercicios1.Load += new System.EventHandler(this.controlEjercicios1_Load);
             // 
             // controlTestInicial2
             // 
             this.controlTestInicial2.Location = new System.Drawing.Point(142, 65);
-            this.controlTestInicial2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.controlTestInicial2.Margin = new System.Windows.Forms.Padding(2);
             this.controlTestInicial2.Name = "controlTestInicial2";
-            this.controlTestInicial2.Size = new System.Drawing.Size(766, 339);
+            this.controlTestInicial2.Size = new System.Drawing.Size(766, 306);
             this.controlTestInicial2.TabIndex = 12;
             // 
             // controlInicio2
             // 
-            this.controlInicio2.Location = new System.Drawing.Point(142, 65);
-            this.controlInicio2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.controlInicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.controlInicio2.Location = new System.Drawing.Point(141, 65);
+            this.controlInicio2.Margin = new System.Windows.Forms.Padding(2);
             this.controlInicio2.Name = "controlInicio2";
-            this.controlInicio2.Size = new System.Drawing.Size(766, 306);
+            this.controlInicio2.Size = new System.Drawing.Size(767, 350);
             this.controlInicio2.TabIndex = 11;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::Therapheye.Properties.Resources.Logo_2;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(-22, 295);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(164, 117);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
             // 
             // Inicio
             // 
@@ -294,14 +297,14 @@ namespace Therapheye
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1040, 458);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.controlTestFinal1);
-            this.Controls.Add(this.controlEjercicios1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.controlTestInicial2);
-            this.Controls.Add(this.controlInicio2);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
+            this.Controls.Add(this.controlEjercicios1);
+            this.Controls.Add(this.controlTestInicial2);
+            this.Controls.Add(this.controlInicio2);
+            this.Controls.Add(this.controlTestFinal1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inicio";
@@ -310,8 +313,8 @@ namespace Therapheye
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

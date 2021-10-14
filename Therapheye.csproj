@@ -58,6 +58,12 @@
     <Compile Include="ControlInicio.Designer.cs">
       <DependentUpon>ControlInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlIshihara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlIshihara.Designer.cs">
+      <DependentUpon>ControlIshihara.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlPelli.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlInicio.resx">
       <DependentUpon>ControlInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlIshihara.resx">
+      <DependentUpon>ControlIshihara.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlPelli.resx">
       <DependentUpon>ControlPelli.cs</DependentUpon>
@@ -148,6 +157,16 @@
     <None Include="Resources\Logo 1.png" />
     <None Include="Resources\Logo 2.png" />
     <None Include="Resources\Categorias %284%29.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\13.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\15.png" />
+    <None Include="Resources\16.png" />
+    <None Include="Resources\17.png" />
+    <None Include="Resources\18.png" />
+    <None Include="Resources\181.png" />
+    <None Include="Resources\19.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>

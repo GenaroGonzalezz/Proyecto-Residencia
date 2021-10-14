@@ -47,6 +47,7 @@ namespace Therapheye
             SidePanel.Top = button1.Top;
             controlInicio2.BringToFront();
             controlEjercicios1.Visible = false;
+            controlInicio2.Visible = true;
 
         }
 
@@ -57,6 +58,7 @@ namespace Therapheye
             controlTestInicial2.Visible = true;
             controlTestInicial2.BringToFront();
             controlEjercicios1.Visible = false;
+            controlInicio2.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -80,6 +82,9 @@ namespace Therapheye
             SidePanel.Top = button5.Top;
             controlEjercicios1.BringToFront();
             controlEjercicios1.Visible = true;
+            controlInicio2.Visible = false;
+            controlTestInicial2.Visible = false;
+            controlTestFinal1.Visible = false;
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -94,6 +99,8 @@ namespace Therapheye
             controlTestFinal1.BringToFront();
             controlTestInicial2.Visible = false;
             controlEjercicios1.Visible = false;
+            controlInicio2.Visible = false;
+            controlTestFinal1.Visible = true;
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -107,6 +114,16 @@ namespace Therapheye
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void controlEjercicios1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void controlTestFinal1_Load(object sender, EventArgs e)
         {
 
         }
