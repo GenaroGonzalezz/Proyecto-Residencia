@@ -64,6 +64,12 @@
     <Compile Include="ControlEjercicios.Designer.cs">
       <DependentUpon>ControlEjercicios.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlGreenwood.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlGreenwood.Designer.cs">
+      <DependentUpon>ControlGreenwood.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlInicio.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     <Compile Include="FormMov.Designer.cs">
       <DependentUpon>FormMov.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTestGreenwood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTestGreenwood.Designer.cs">
+      <DependentUpon>FormTestGreenwood.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVisNoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlEjercicios.resx">
       <DependentUpon>ControlEjercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlGreenwood.resx">
+      <DependentUpon>ControlGreenwood.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlInicio.resx">
       <DependentUpon>ControlInicio.cs</DependentUpon>
@@ -162,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMov.resx">
       <DependentUpon>FormMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTestGreenwood.resx">
+      <DependentUpon>FormTestGreenwood.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVisNoc.resx">
       <DependentUpon>FormVisNoc.cs</DependentUpon>
@@ -193,6 +211,8 @@
     <None Include="Resources\pinguino.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\test.jpg" />
+    <None Include="Resources\test-visual-ojos-twitter-SF-1.jpg" />
     <None Include="Resources\pelli-robson-cs-chart-330x430.jfif" />
     <None Include="Resources\outline_check_circle_outline_white_24dp.png" />
     <None Include="Resources\outline_remove_red_eye_white_24dp1.png" />
@@ -215,6 +235,13 @@
     <None Include="Resources\24.png" />
     <None Include="Resources\Categorias.png" />
     <None Include="Resources\Categorias %281%29.png" />
+    <None Include="Resources\greenwoodTest.jpg" />
+    <None Include="Resources\28.png" />
+    <None Include="Resources\29.png" />
+    <None Include="Resources\30.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\FondoGris.png" />
+    <None Include="Resources\FondoGris1.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>

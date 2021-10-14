@@ -31,7 +31,6 @@ C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Thera
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.FormMov.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlMultiVista.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlAmsler.resources
-C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlMiopia.resources
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Therapheye.exe.config
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Therapheye.exe
@@ -55,3 +54,6 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.GenerateResou
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.CoreCompileInputs.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.exe
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.pdb
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlGreenwood.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.FormTestGreenwood.resources
+C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache

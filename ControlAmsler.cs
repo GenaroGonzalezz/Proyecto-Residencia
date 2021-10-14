@@ -20,6 +20,7 @@ namespace Therapheye
         private void button2_Click(object sender, EventArgs e)
         {
             pictureBox6.Visible = true;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

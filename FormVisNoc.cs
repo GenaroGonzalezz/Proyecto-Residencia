@@ -25,6 +25,7 @@ namespace Therapheye
 
             controlIshihara1.Visible = false;
             controlAmsler1.Visible = false;
+            controlGreenwood1.Visible = false;
         }
 
         private void controlPelli1_Load(object sender, EventArgs e)
@@ -39,6 +40,8 @@ namespace Therapheye
             this.ControlBox = false;
 
             controlPelli1.Visible = false;
+            controlGreenwood1.Visible = false;
+            controlAmsler1.Visible = false;
         }
 
         private void controlIshihara1_Load(object sender, EventArgs e)
@@ -53,6 +56,23 @@ namespace Therapheye
 
             controlPelli1.Visible = false;
             controlIshihara1.Visible = false;
+            controlGreenwood1.Visible = false;
+        }
+
+        private void controlAmsler1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            controlGreenwood1.BringToFront();
+            controlGreenwood1.Visible = true;
+
+            controlIshihara1.Visible = false;
+            controlAmsler1.Visible = false;
+            controlPelli1.Visible = false;
+
         }
     }
 }

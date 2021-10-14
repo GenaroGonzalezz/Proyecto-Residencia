@@ -173,6 +173,46 @@ namespace Therapheye.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _28 {
+            get {
+                object obj = ResourceManager.GetObject("28", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _29 {
+            get {
+                object obj = ResourceManager.GetObject("29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _30 {
+            get {
+                object obj = ResourceManager.GetObject("30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _31 {
+            get {
+                object obj = ResourceManager.GetObject("31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Categorias {
             get {
                 object obj = ResourceManager.GetObject("Categorias", resourceCulture);
@@ -196,6 +236,36 @@ namespace Therapheye.Properties {
         internal static System.Drawing.Bitmap Categorias__4_ {
             get {
                 object obj = ResourceManager.GetObject("Categorias (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoGris {
+            get {
+                object obj = ResourceManager.GetObject("FondoGris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoGris1 {
+            get {
+                object obj = ResourceManager.GetObject("FondoGris1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greenwoodTest {
+            get {
+                object obj = ResourceManager.GetObject("greenwoodTest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -296,6 +366,26 @@ namespace Therapheye.Properties {
         internal static System.Drawing.Bitmap pinguino {
             get {
                 object obj = ResourceManager.GetObject("pinguino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap test {
+            get {
+                object obj = ResourceManager.GetObject("test", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap test_visual_ojos_twitter_SF_1 {
+            get {
+                object obj = ResourceManager.GetObject("test-visual-ojos-twitter-SF-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

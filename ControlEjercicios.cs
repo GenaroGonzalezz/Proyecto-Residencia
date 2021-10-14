@@ -33,5 +33,10 @@ namespace Therapheye
             FormMov fm = new FormMov();
             fm.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
