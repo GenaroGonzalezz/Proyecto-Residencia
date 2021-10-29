@@ -165,5 +165,15 @@ namespace Therapheye
             pictureBox4.BringToFront();
             pictureBox4.Visible = true;
         }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            textBox2.BackColor = Color.White;
+        }
+
+        private void textBox3_Enter(object sender, EventArgs e)
+        {
+            textBox3.BackColor = Color.White;
+        }
     }
 }

@@ -35,7 +35,6 @@ C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Thera
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Therapheye.exe.config
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Therapheye.exe
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Therapheye.pdb
-C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlAlternar.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlAmsler.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlEjercicios.resources
@@ -57,3 +56,14 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.pdb
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.ControlGreenwood.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.FormTestGreenwood.resources
 C:\Users\gena4\Desktop\Residencia\Proyecto-Residencia\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlGreenwood.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormTestGreenwood.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.CopyComplete
