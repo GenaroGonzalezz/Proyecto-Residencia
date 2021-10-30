@@ -70,6 +70,12 @@
     <Compile Include="ControlAmsler.Designer.cs">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlCirculoHorario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlCirculoHorario.Designer.cs">
+      <DependentUpon>ControlCirculoHorario.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlEjercicios.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -131,11 +137,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHabitos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHabitos.Designer.cs">
+      <DependentUpon>FormHabitos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMov.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMov.Designer.cs">
       <DependentUpon>FormMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPresion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPresion.Designer.cs">
+      <DependentUpon>FormPresion.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTestGreenwood.cs">
       <SubType>Form</SubType>
@@ -156,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlAmsler.resx">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCirculoHorario.resx">
+      <DependentUpon>ControlCirculoHorario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlEjercicios.resx">
       <DependentUpon>ControlEjercicios.cs</DependentUpon>
@@ -187,8 +208,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHabitos.resx">
+      <DependentUpon>FormHabitos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMov.resx">
       <DependentUpon>FormMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPresion.resx">
+      <DependentUpon>FormPresion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTestGreenwood.resx">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
@@ -257,6 +284,10 @@
     <None Include="Resources\FondoGris1.png" />
     <None Include="Resources\32.png" />
     <None Include="Resources\33.png" />
+    <None Include="Resources\Categorias1.png" />
+    <None Include="Resources\Categorias %281%291.png" />
+    <None Include="Resources\Categorias %283%29.png" />
+    <None Include="Resources\Categorias %282%29.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>

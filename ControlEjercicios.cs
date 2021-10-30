@@ -38,5 +38,16 @@ namespace Therapheye
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormPresion presion = new FormPresion();
+            presion.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

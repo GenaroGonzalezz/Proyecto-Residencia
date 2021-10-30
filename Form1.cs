@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Therapheye
 {
@@ -127,5 +128,40 @@ namespace Therapheye
         {
 
         }
+
+        private void SidePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-ES");
+            String fecha = DateTime.Now.ToString("dddd, dd MMMM yyyy");
+            
+
+            //textBox1.Text.Contains(fecha);
+            textBox1.AppendText(fecha);
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-ES");
+            String hora = DateTime.Now.ToString("hh:mm tt", CultureInfo.InvariantCulture);
+            textBox2.AppendText(hora);
+        }
     }
+   
 }
