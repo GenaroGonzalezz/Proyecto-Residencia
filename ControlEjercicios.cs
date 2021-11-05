@@ -36,7 +36,8 @@ namespace Therapheye
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            FormFocus ff = new FormFocus();
+            ff.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,7 +48,8 @@ namespace Therapheye
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            FormHabitos habitos = new FormHabitos();
+            habitos.ShowDialog();
         }
     }
 }

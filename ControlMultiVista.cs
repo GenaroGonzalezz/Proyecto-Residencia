@@ -21,5 +21,13 @@ namespace Therapheye
         {
             FormMov.ActiveForm.Close();
         }
+
+        private void ControlMultiVista_Load(object sender, EventArgs e)
+        {
+            pictureBox6.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\Lateral.gif");
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\upndown.gif");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }

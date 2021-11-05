@@ -8,18 +8,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Runtime.InteropServices;
 
 namespace Therapheye
 {
     public partial class Inicio : Form
     {
-        
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+      (
+          int nLeftRect,     // x-coordinate of upper-left corner
+          int nTopRect,      // y-coordinate of upper-left corner
+          int nRightRect,    // x-coordinate of lower-right corner
+          int nBottomRect,   // y-coordinate of lower-right corner
+          int nWidthEllipse, // height of ellipse
+          int nHeightEllipse // width of ellipse
+      );
+
         public Inicio()
         {
             InitializeComponent();
             SidePanel.Height = button1.Height;
             SidePanel.Top = button1.Top;
             controlInicio2.BringToFront();
+            this.FormBorderStyle = FormBorderStyle.None;
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -49,6 +62,10 @@ namespace Therapheye
             controlInicio2.BringToFront();
             controlEjercicios1.Visible = false;
             controlInicio2.Visible = true;
+            button1.BackColor = Color.FromArgb(99, 117, 237);
+            button1.ForeColor = Color.Black;
+
+            
 
         }
 
@@ -60,11 +77,15 @@ namespace Therapheye
             controlTestInicial2.BringToFront();
             controlEjercicios1.Visible = false;
             controlInicio2.Visible = false;
+            button2.BackColor = Color.FromArgb(99, 117, 237);
+            button2.ForeColor = Color.Black;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            button3.BackColor = Color.FromArgb(99, 117, 237);
+            button3.ForeColor = Color.Black;
         }
 
         private void EjercicioMovimiento_Paint(object sender, PaintEventArgs e)
@@ -74,7 +95,11 @@ namespace Therapheye
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Value Eyes: Evaluación y recomendaciones para la fatiga visual y vision escotópica", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            SidePanel.Height = button4.Height;
+            SidePanel.Top = button4.Top;
+            button4.BackColor = Color.FromArgb(99, 117, 237);
+            button4.ForeColor = Color.Black;
+            MessageBox.Show("Therapeye: Evaluación y recomendaciones para la fatiga visual y vision escotópica", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -86,6 +111,8 @@ namespace Therapheye
             controlInicio2.Visible = false;
             controlTestInicial2.Visible = false;
             controlTestFinal1.Visible = false;
+            button5.BackColor = Color.FromArgb(99, 117, 237);
+            button5.ForeColor = Color.Black;
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -102,6 +129,8 @@ namespace Therapheye
             controlEjercicios1.Visible = false;
             controlInicio2.Visible = false;
             controlTestFinal1.Visible = true;
+            button6.BackColor = Color.FromArgb(99, 117, 237);
+            button6.ForeColor = Color.Black;
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -147,7 +176,7 @@ namespace Therapheye
             
 
             //textBox1.Text.Contains(fecha);
-            textBox1.AppendText(fecha);
+            //textBox1.AppendText(fecha);
 
         }
 
@@ -159,8 +188,44 @@ namespace Therapheye
         private void panel10_Paint(object sender, PaintEventArgs e)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-ES");
-            String hora = DateTime.Now.ToString("hh:mm tt", CultureInfo.InvariantCulture);
-            textBox2.AppendText(hora);
+            //String hora = DateTime.Now.ToString("hh:mm tt", CultureInfo.InvariantCulture);
+            //textBox2.AppendText(hora);
+        }
+
+        private void hora_Tick(object sender, EventArgs e)
+        {
+            textBox1.Text = DateTime.Now.ToString("dddd, dd MMMM yyyy");
+            textBox2.Text = DateTime.Now.ToString("hh:mm tt", CultureInfo.InvariantCulture);
+        }
+
+        private void button1_Leave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(0, 56, 68);
+            button1.ForeColor = Color.White;
+        }
+
+        private void button2_Leave(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.FromArgb(0, 56, 68);
+            button2.ForeColor = Color.White;
+        }
+
+        private void button5_Leave(object sender, EventArgs e)
+        {
+            button5.BackColor = Color.FromArgb(0, 56, 68);
+            button5.ForeColor = Color.White;
+        }
+
+        private void button6_Leave(object sender, EventArgs e)
+        {
+            button6.BackColor = Color.FromArgb(0, 56, 68);
+            button6.ForeColor = Color.White;
+        }
+
+        private void button4_Leave(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.FromArgb(0, 56, 68);
+            button4.ForeColor = Color.White;
         }
     }
    

@@ -29,34 +29,36 @@ namespace Therapheye
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.SidePanel = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.controlEjercicios1 = new Therapheye.ControlEjercicios();
-            this.controlTestInicial2 = new Therapheye.ControlTestInicial();
-            this.controlInicio2 = new Therapheye.ControlInicio();
-            this.controlTestFinal1 = new Therapheye.ControlTestFinal();
             this.button3 = new System.Windows.Forms.Button();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.hora = new System.Windows.Forms.Timer(this.components);
+            this.controlEjercicios1 = new Therapheye.ControlEjercicios();
+            this.controlTestInicial2 = new Therapheye.ControlTestInicial();
+            this.controlInicio2 = new Therapheye.ControlInicio();
+            this.controlTestFinal1 = new Therapheye.ControlTestFinal();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,96 +80,6 @@ namespace Therapheye
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.SidePanel.Location = new System.Drawing.Point(0, 43);
-            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(9, 63);
-            this.SidePanel.TabIndex = 11;
-            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1387, 49);
-            this.panel2.TabIndex = 2;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(117)))), ((int)(((byte)(237)))));
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Location = new System.Drawing.Point(1228, 31);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(160, 520);
-            this.panel4.TabIndex = 3;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.panel10.Controls.Add(this.textBox2);
-            this.panel10.Controls.Add(this.textBox1);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel10.Location = new System.Drawing.Point(0, 516);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1387, 48);
-            this.panel10.TabIndex = 10;
-            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
-            // 
-            // backgroundWorker1
-            // 
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            // 
-            // controlEjercicios1
-            // 
-            this.controlEjercicios1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlEjercicios1.Location = new System.Drawing.Point(207, 100);
-            this.controlEjercicios1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.controlEjercicios1.Name = "controlEjercicios1";
-            this.controlEjercicios1.Size = new System.Drawing.Size(997, 377);
-            this.controlEjercicios1.TabIndex = 14;
-            this.controlEjercicios1.Visible = false;
-            this.controlEjercicios1.Load += new System.EventHandler(this.controlEjercicios1_Load);
-            // 
-            // controlTestInicial2
-            // 
-            this.controlTestInicial2.Location = new System.Drawing.Point(189, 80);
-            this.controlTestInicial2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.controlTestInicial2.Name = "controlTestInicial2";
-            this.controlTestInicial2.Size = new System.Drawing.Size(1021, 377);
-            this.controlTestInicial2.TabIndex = 12;
-            // 
-            // controlInicio2
-            // 
-            this.controlInicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.controlInicio2.Location = new System.Drawing.Point(188, 80);
-            this.controlInicio2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.controlInicio2.Name = "controlInicio2";
-            this.controlInicio2.Size = new System.Drawing.Size(1023, 431);
-            this.controlInicio2.TabIndex = 11;
-            // 
-            // controlTestFinal1
-            // 
-            this.controlTestFinal1.Location = new System.Drawing.Point(213, 80);
-            this.controlTestFinal1.Margin = new System.Windows.Forms.Padding(11, 10, 11, 10);
-            this.controlTestFinal1.Name = "controlTestFinal1";
-            this.controlTestFinal1.Size = new System.Drawing.Size(973, 396);
-            this.controlTestFinal1.TabIndex = 15;
-            this.controlTestFinal1.Load += new System.EventHandler(this.controlTestFinal1_Load);
-            // 
             // button3
             // 
             this.button3.FlatAppearance.BorderSize = 0;
@@ -183,6 +95,17 @@ namespace Therapheye
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.SidePanel.Location = new System.Drawing.Point(0, 43);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(9, 63);
+            this.SidePanel.TabIndex = 11;
+            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
             // 
             // button6
             // 
@@ -200,6 +123,7 @@ namespace Therapheye
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Leave += new System.EventHandler(this.button6_Leave);
             // 
             // button5
             // 
@@ -217,6 +141,7 @@ namespace Therapheye
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Leave += new System.EventHandler(this.button5_Leave);
             // 
             // button4
             // 
@@ -224,7 +149,7 @@ namespace Therapheye
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(5, 318);
+            this.button4.Location = new System.Drawing.Point(9, 318);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(175, 66);
@@ -233,6 +158,7 @@ namespace Therapheye
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Leave += new System.EventHandler(this.button4_Leave);
             // 
             // button2
             // 
@@ -250,23 +176,64 @@ namespace Therapheye
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Leave += new System.EventHandler(this.button2_Leave);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(117)))), ((int)(((byte)(237)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(3, 21);
+            this.button1.Location = new System.Drawing.Point(4, 21);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 66);
             this.button1.TabIndex = 0;
             this.button1.Text = "  Inicio";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Leave += new System.EventHandler(this.button1_Leave);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1387, 49);
+            this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(196, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(875, 37);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Therapeye: Evaluación de Fatiga Visual y Vision Escotópica";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(117)))), ((int)(((byte)(237)))));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Controls.Add(this.pictureBox6);
+            this.panel4.Location = new System.Drawing.Point(1228, 31);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(160, 520);
+            this.panel4.TabIndex = 3;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // pictureBox1
             // 
@@ -293,31 +260,18 @@ namespace Therapheye
             this.pictureBox6.TabIndex = 29;
             this.pictureBox6.TabStop = false;
             // 
-            // label1
+            // panel10
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(196, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1034, 37);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Value Eye/Therapeye: Evaluación de Fatiga Visual y Vision Escotópica";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.textBox1.Location = new System.Drawing.Point(753, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(308, 29);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.panel10.Controls.Add(this.textBox2);
+            this.panel10.Controls.Add(this.textBox1);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 516);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1387, 48);
+            this.panel10.TabIndex = 10;
+            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
             // textBox2
             // 
@@ -333,6 +287,66 @@ namespace Therapheye
             this.textBox2.TabIndex = 16;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.textBox1.Location = new System.Drawing.Point(698, 11);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(508, 29);
+            this.textBox1.TabIndex = 15;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            // 
+            // hora
+            // 
+            this.hora.Enabled = true;
+            this.hora.Tick += new System.EventHandler(this.hora_Tick);
+            // 
+            // controlEjercicios1
+            // 
+            this.controlEjercicios1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlEjercicios1.Location = new System.Drawing.Point(203, 80);
+            this.controlEjercicios1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.controlEjercicios1.Name = "controlEjercicios1";
+            this.controlEjercicios1.Size = new System.Drawing.Size(1003, 385);
+            this.controlEjercicios1.TabIndex = 14;
+            this.controlEjercicios1.Visible = false;
+            this.controlEjercicios1.Load += new System.EventHandler(this.controlEjercicios1_Load);
+            // 
+            // controlTestInicial2
+            // 
+            this.controlTestInicial2.Location = new System.Drawing.Point(189, 80);
+            this.controlTestInicial2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.controlTestInicial2.Name = "controlTestInicial2";
+            this.controlTestInicial2.Size = new System.Drawing.Size(1021, 377);
+            this.controlTestInicial2.TabIndex = 12;
+            // 
+            // controlInicio2
+            // 
+            this.controlInicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.controlInicio2.Location = new System.Drawing.Point(190, 53);
+            this.controlInicio2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.controlInicio2.Name = "controlInicio2";
+            this.controlInicio2.Size = new System.Drawing.Size(1032, 447);
+            this.controlInicio2.TabIndex = 11;
+            // 
+            // controlTestFinal1
+            // 
+            this.controlTestFinal1.Location = new System.Drawing.Point(213, 80);
+            this.controlTestFinal1.Margin = new System.Windows.Forms.Padding(11, 10, 11, 10);
+            this.controlTestFinal1.Name = "controlTestFinal1";
+            this.controlTestFinal1.Size = new System.Drawing.Size(973, 396);
+            this.controlTestFinal1.TabIndex = 15;
+            this.controlTestFinal1.Load += new System.EventHandler(this.controlTestFinal1_Load);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -345,8 +359,8 @@ namespace Therapheye
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.controlEjercicios1);
             this.Controls.Add(this.controlTestInicial2);
-            this.Controls.Add(this.controlInicio2);
             this.Controls.Add(this.controlTestFinal1);
+            this.Controls.Add(this.controlInicio2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Inicio";
@@ -357,10 +371,10 @@ namespace Therapheye
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -390,6 +404,7 @@ namespace Therapheye
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Timer hora;
     }
 }
 

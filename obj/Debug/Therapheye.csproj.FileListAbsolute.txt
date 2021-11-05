@@ -70,3 +70,4 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlCirculoHorari
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormHabitos.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormPresion.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormFocus.resources

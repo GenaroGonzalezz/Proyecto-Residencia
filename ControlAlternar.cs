@@ -21,5 +21,16 @@ namespace Therapheye
         {
             FormMov.ActiveForm.Close();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ControlAlternar_Load(object sender, EventArgs e)
+        {
+            pictureBox6.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\cuchara.gif");
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }

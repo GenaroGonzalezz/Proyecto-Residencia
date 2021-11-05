@@ -117,4 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Un mal hábito frecuente cuando se trabaja con pantallas por períodos de tiempo extensos es el no parpadear por intervalos de tiempo demasiado largos de manera regular, esto contribuye a la resequedad de los ojos y a su vez causar incomodidades como la fatiga visual.
+Si te consideras una persona a la que le sucede esto con frecuencia, puedes intentar forzar el parpadeo cerrando los ojos durante 20 segundos, esperando a que se rehidraten lo suficiente.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Si a lo largo del día usted tiene la costumbre de exponer sus ojos mucho al ordenador, 
+los especialistas aconsejan levantar la vista cada 20 minutos
+durante 20 segundos y enfocar a un objeto que se encuentre 
+aproximadamente a 6 metros o 20 pies.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Un mal hábito frecuente cuando se trabaja con pantallas por períodos de tiempo extensos es el no parpadear por intervalos de tiempo demasiado largos de manera regular, esto contribuye a la resequedad de los ojos y a su vez causar incomodidades como la fatiga visual.
+Si te consideras una persona a la que le sucede esto con frecuencia, puedes intentar forzar el parpadeo cerrando los ojos durante 20 segundos, esperando a que se rehidraten lo suficiente.</value>
+  </data>
 </root>
