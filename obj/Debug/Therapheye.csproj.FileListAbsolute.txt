@@ -67,7 +67,8 @@ C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Gena4\source\repos\Therapheye\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.CopyComplete
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlCirculoHorario.resources
-C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormHabitos.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormPresion.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormFocus.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormSuplementos.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlPresionSimple.resources

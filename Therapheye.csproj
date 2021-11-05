@@ -118,6 +118,12 @@
     <Compile Include="ControlPelli.Designer.cs">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlPresionSimple.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPresionSimple.Designer.cs">
+      <DependentUpon>ControlPresionSimple.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlTestFinal.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +166,12 @@
     </Compile>
     <Compile Include="FormPresion.Designer.cs">
       <DependentUpon>FormPresion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuplementos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuplementos.Designer.cs">
+      <DependentUpon>FormSuplementos.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTestGreenwood.cs">
       <SubType>Form</SubType>
@@ -205,6 +217,9 @@
     <EmbeddedResource Include="ControlPelli.resx">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlPresionSimple.resx">
+      <DependentUpon>ControlPresionSimple.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlTestFinal.resx">
       <DependentUpon>ControlTestFinal.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPresion.resx">
       <DependentUpon>FormPresion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuplementos.resx">
+      <DependentUpon>FormSuplementos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTestGreenwood.resx">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
@@ -260,6 +278,7 @@
     <None Include="Resources\pinguino.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Zn.png" />
     <None Include="Resources\test.jpg" />
     <None Include="Resources\test-visual-ojos-twitter-SF-1.jpg" />
     <None Include="Resources\pelli-robson-cs-chart-330x430.jfif" />
@@ -306,6 +325,12 @@
     <None Include="Resources\Dedo1.png" />
     <None Include="Resources\Diagonal1.png" />
     <None Include="Resources\Lados1.png" />
+    <None Include="Resources\A.png" />
+    <None Include="Resources\Acidos grasos.png" />
+    <None Include="Resources\C.png" />
+    <None Include="Resources\E.png" />
+    <None Include="Resources\Luteina.png" />
+    <None Include="Resources\Categorias %284%291.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>

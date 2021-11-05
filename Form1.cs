@@ -32,7 +32,7 @@ namespace Therapheye
             SidePanel.Top = button1.Top;
             controlInicio2.BringToFront();
             this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
         }
 
         private void Form1_Load(object sender, EventArgs e)

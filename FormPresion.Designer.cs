@@ -36,6 +36,7 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.controlPresionSimple1 = new Therapheye.ControlPresionSimple();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,14 +128,26 @@ namespace Therapheye
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(236, 63);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Presión general";
+            this.button1.Text = "Presión Simple";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // controlPresionSimple1
+            // 
+            this.controlPresionSimple1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlPresionSimple1.Location = new System.Drawing.Point(267, 0);
+            this.controlPresionSimple1.Name = "controlPresionSimple1";
+            this.controlPresionSimple1.Size = new System.Drawing.Size(993, 487);
+            this.controlPresionSimple1.TabIndex = 2;
+            this.controlPresionSimple1.Visible = false;
+            this.controlPresionSimple1.Load += new System.EventHandler(this.controlPresionSimple1_Load);
             // 
             // FormPresion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlPresionSimple1);
             this.Controls.Add(this.panel1);
             this.Name = "FormPresion";
             this.ShowIcon = false;
@@ -155,5 +168,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private ControlPresionSimple controlPresionSimple1;
     }
 }

@@ -51,5 +51,17 @@ namespace Therapheye
             FormHabitos habitos = new FormHabitos();
             habitos.ShowDialog();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormSuplementos fs = new FormSuplementos();
+            fs.ShowDialog();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            FormSuplementos fs = new FormSuplementos();
+            fs.ShowDialog();
+        }
     }
 }

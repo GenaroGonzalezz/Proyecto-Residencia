@@ -16,5 +16,16 @@ namespace Therapheye
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            controlPresionSimple1.Visible = true;
+            controlPresionSimple1.BringToFront();
+        }
+
+        private void controlPresionSimple1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

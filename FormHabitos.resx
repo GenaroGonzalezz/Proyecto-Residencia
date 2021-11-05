@@ -117,18 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value> Coloca el monitor directamente frente a ti, aproximadamente a un brazo de distancia, de manera tal que la parte superior de la pantalla esté al nivel de los ojos o justo por debajo. También es útil tener una silla que puedas regular.
+Además se recomienda agrandar el tipo de letra para que te resulte más fácil leer. Ajusta el contraste y el brillo a un nivel que te resulte agradable.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>La luz brillante y el reflejo excesivo pueden cansar los ojos y dificultar la visualización de objetos en el monitor. Por lo general, los peores problemas provienen de fuentes que están sobre ti o detrás de ti, incluida la iluminación fluorescente y la luz solar. Considera apagar alguna de las luces del techo o todas ellas.
+Si necesitas luz para escribir o leer, utiliza una lámpara de escritorio ajustable. Cierra las persianas o cortinas y evita colocar el monitor directamente frente a una ventana o una pared blanca. Coloca un recubrimiento antirreflejo sobre la pantalla.</value>
+  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Un mal hábito frecuente cuando se trabaja con pantallas por períodos de tiempo extensos es el no parpadear por intervalos de tiempo demasiado largos de manera regular, esto contribuye a la resequedad de los ojos y a su vez causar incomodidades como la fatiga visual.
+    <value>Un mal hábito frecuente cuando se trabaja con pantallas por períodos de tiempo extensos es el no parpadear por intervalos de tiempo demasiado largos de manera regular, esto contribuye a la resequedad de los ojos y a su vez causar incomodidades como la fatiga visual. 
+Pestañear produce lágrimas que humedecen y refrescan los ojos.
 Si te consideras una persona a la que le sucede esto con frecuencia, puedes intentar forzar el parpadeo cerrando los ojos durante 20 segundos, esperando a que se rehidraten lo suficiente.</value>
   </data>
   <data name="richTextBox2.Text" xml:space="preserve">
-    <value>Si a lo largo del día usted tiene la costumbre de exponer sus ojos mucho al ordenador, 
-los especialistas aconsejan levantar la vista cada 20 minutos
-durante 20 segundos y enfocar a un objeto que se encuentre 
-aproximadamente a 6 metros o 20 pies.</value>
-  </data>
-  <data name="richTextBox3.Text" xml:space="preserve">
-    <value>Un mal hábito frecuente cuando se trabaja con pantallas por períodos de tiempo extensos es el no parpadear por intervalos de tiempo demasiado largos de manera regular, esto contribuye a la resequedad de los ojos y a su vez causar incomodidades como la fatiga visual.
-Si te consideras una persona a la que le sucede esto con frecuencia, puedes intentar forzar el parpadeo cerrando los ojos durante 20 segundos, esperando a que se rehidraten lo suficiente.</value>
+    <value>Si a lo largo del día usted tiene la costumbre de exponer sus ojos durante mucho tiempo al ordenador, los especialistas aconsejan levantar la vista cada 20 minutos durante 20 segundos y enfocar a un objeto que se encuentre aproximadamente a 6 metros o 20 pies.</value>
   </data>
 </root>
