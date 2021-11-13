@@ -51,8 +51,8 @@ namespace Therapheye
             this.hora = new System.Windows.Forms.Timer(this.components);
             this.controlEjercicios1 = new Therapheye.ControlEjercicios();
             this.controlTestInicial2 = new Therapheye.ControlTestInicial();
-            this.controlInicio2 = new Therapheye.ControlInicio();
             this.controlTestFinal1 = new Therapheye.ControlTestFinal();
+            this.controlInicio2 = new Therapheye.ControlInicio();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -82,6 +82,7 @@ namespace Therapheye
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = global::Therapheye.Properties.Resources.outline_close_white_24dp;
@@ -109,6 +110,7 @@ namespace Therapheye
             // 
             // button6
             // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
@@ -127,6 +129,7 @@ namespace Therapheye
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
@@ -145,6 +148,7 @@ namespace Therapheye
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
@@ -162,6 +166,7 @@ namespace Therapheye
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
@@ -181,6 +186,7 @@ namespace Therapheye
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(117)))), ((int)(((byte)(237)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -294,7 +300,7 @@ namespace Therapheye
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.textBox1.Location = new System.Drawing.Point(698, 10);
+            this.textBox1.Location = new System.Drawing.Point(189, 11);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(508, 29);
@@ -329,15 +335,6 @@ namespace Therapheye
             this.controlTestInicial2.Size = new System.Drawing.Size(1021, 377);
             this.controlTestInicial2.TabIndex = 12;
             // 
-            // controlInicio2
-            // 
-            this.controlInicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.controlInicio2.Location = new System.Drawing.Point(190, 53);
-            this.controlInicio2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.controlInicio2.Name = "controlInicio2";
-            this.controlInicio2.Size = new System.Drawing.Size(1032, 447);
-            this.controlInicio2.TabIndex = 11;
-            // 
             // controlTestFinal1
             // 
             this.controlTestFinal1.Location = new System.Drawing.Point(213, 80);
@@ -346,6 +343,15 @@ namespace Therapheye
             this.controlTestFinal1.Size = new System.Drawing.Size(973, 396);
             this.controlTestFinal1.TabIndex = 15;
             this.controlTestFinal1.Load += new System.EventHandler(this.controlTestFinal1_Load);
+            // 
+            // controlInicio2
+            // 
+            this.controlInicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.controlInicio2.Location = new System.Drawing.Point(190, 53);
+            this.controlInicio2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.controlInicio2.Name = "controlInicio2";
+            this.controlInicio2.Size = new System.Drawing.Size(1032, 447);
+            this.controlInicio2.TabIndex = 11;
             // 
             // Inicio
             // 

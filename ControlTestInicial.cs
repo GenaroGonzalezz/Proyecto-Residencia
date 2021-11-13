@@ -39,7 +39,7 @@ namespace Therapheye
             cuestion pregunta = new cuestion();
             encuesta.Add(new cuestion
             {
-                concepto = "1.- ¿Acostumbra hacer uso de pantallas durante periodos de tiempo mayores a 6 horas?",
+                concepto = "1.- ¿Acostumbra usar pantallas durante periodos de tiempo mayores a 6 horas?",
                 resp1 = "No",
                 valor1 = val1,
                 resp2 = "Rara vez",
@@ -53,7 +53,118 @@ namespace Therapheye
 
             encuesta.Add(new cuestion
             {
-                concepto = "2.- ¿Presenta problemas para enfocar objetos a corta distancia?",
+                concepto = "2.- ¿Tiene problemas para enfocar objetos a corta distancia?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "3.- ¿Suele tener la vista cansada al finalizar el día?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "4.- ¿Le duele la cabeza al intentar enfocar la vista?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "5.- ¿Considera que olvida parpadear frecuentemente?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "6.- ¿Usa pantallas en entornos con iluminación mal regulada (Ej. Bastante luz entrante por la ventana)?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "7.- ¿Tiene dificultad para ver en la oscuridad?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Rara vez",
+                valor2 = val2,
+                resp3 = "Comunmente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "8.- ¿Tiene deficiencias alimenticias?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "No estoy segur@",
+                valor2 = val2,
+                resp3 = "Probablemente",
+                valor3 = val3,
+                resp4 = "Si",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "9.- ¿En su familia existen casos o antecedentes de condiciones oculares hereditarias?",
+                resp1 = "No",
+                valor1 = val1,
+                resp2 = "Muy pocos",
+                valor2 = val2,
+                resp3 = "Algunos",
+                valor3 = val3,
+                resp4 = "Bastantes",
+                valor4 = val4
+
+            });
+
+            encuesta.Add(new cuestion
+            {
+                concepto = "10.- ¿Olvida activar algún filtro contra luz azul en las pantallas que usa?",
                 resp1 = "No",
                 valor1 = val1,
                 resp2 = "Rara vez",
@@ -71,7 +182,7 @@ namespace Therapheye
             //Boton para iniciar la encuesta
             numPreg = 0;
             sumResp = 0;
-            lblResultado.Visible = false;
+            richTextBox1.Visible = false;
             progressBar1.Value = 0;
             progressBar1.Visible = false;
             RealizaPregunta();
@@ -84,8 +195,9 @@ namespace Therapheye
         {
             cuestion pregunta = new cuestion();
             pregunta = encuesta[numPreg];
-            lblPregunta.Text = pregunta.concepto;
-            lblPregunta.Visible = true;
+            richTextBox2.Text = pregunta.concepto;
+            richTextBox2.Text = pregunta.concepto;
+            richTextBox2.Visible = true;
 
             radioButton1.Text = pregunta.resp1;
             radioButton1.Checked = false;
@@ -120,7 +232,7 @@ namespace Therapheye
             if (radioButton2.Checked == true) { sumResp += pregunta.valor2; }
             if (radioButton3.Checked == true) { sumResp += pregunta.valor3; }
             if (radioButton4.Checked == true) { sumResp += pregunta.valor4; }
-            if (numPreg < encuesta.Count() - 1)
+            if ((numPreg < encuesta.Count() - 1))
             {
                 numPreg++;
                 RealizaPregunta();
@@ -131,7 +243,7 @@ namespace Therapheye
             }
         }
         private void PresentaResultado() {
-            lblPregunta.Visible = false;
+            richTextBox2.Visible = false;
             radioButton1.Visible = false;
             radioButton2.Visible = false;
             radioButton3.Visible = false;
@@ -146,32 +258,50 @@ namespace Therapheye
             int lim4 = (lim5 - lim3) / 2 + lim3;
             int lim6 = (lim7 - lim5) / 2 + lim5;
             
+            if (sumResp <= lim1)
+            {
+                richTextBox1.Text = "No has proporcionado ninguna respuesta, por favor repite el cuestionario.";
+            }
+
             if (sumResp <= lim2)
             {
-                lblResultado.Text = "Su vista esta en buen estado pero procure relajar la vista constantemente";
+                richTextBox1.Text = "De acuerdo a las respuestas que ha proporcionado, sus hábitos y salud ocular son adecuados, por lo que probablemente no tenga complicaciones visuales. Sin embargo las pruebas están a su disposición si así lo desea. Igualmente puede acceder al resto de los módulos para conocer diferentes hábitos que le permitirán ejercitar y mantener sus ojos en buen estado.";
+
+               
             }
             if (sumResp > lim2 && sumResp <= lim4) 
             {
-                lblResultado.Text = "Intente practicar los ejercicios tal y tal";
+                richTextBox1.Text = "De acuerdo a las respuestas que ha proporcionado, se concluye que su vista se encuentra en buen estado, sin embargo pueden existir algunos factores que puede mejorar para evitar futuros problemas en su salud ocular. Se le invita a ingresar a los módulos de nuevos hábitos y de suplementos para conocer recomendaciones que le pueden ayudar a mantener una vista sana";
             }
             if (sumResp > lim4 && sumResp <= lim6) 
             {
-                lblResultado.Text = "Realice estos ejercicios";
+                richTextBox1.Text = "De acuerdo a las respuestas que ha proporcionado, su salud ocular puede estar en riesgo de padecer algunos problemas de salud si no son atendidos en el futuro, por lo que se le recomienda realizar los diferentes ejercicios que podrá encontrar en cada módulo dentro de la sección de ejercicios.";
             }
             if (sumResp > lim6)
             {
-                lblResultado.Text = "Necesita mejorar su vista";
+                richTextBox1.Text = "De acuerdo a las respuestas que ha proporcionado se le recomienda realizar la terapia completa, siguiendo las instrucciones de cada uno de los módulos y leyendo las indicaciones para adoptar hábitos nuevos que podrán facilitar el mejoramiento y recuperación de su salud ocular. Además de la realización de las pruebas se recomienda acudir a un centro de salud para recibir asistencia más especializada y efectiva. Mucho éxito en su progreso!";
             }
-            lblResultado.Visible = true;
+            richTextBox1.Visible = true;
             double avance = (double)sumResp / (double)lim7 * 100.0;
 
             button1.Visible = true;
+            label1.Visible = true;
 
         }
 
         private void btnFin_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+          
         }
     }
 }
