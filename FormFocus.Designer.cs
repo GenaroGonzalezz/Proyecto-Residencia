@@ -30,10 +30,10 @@ namespace Therapheye
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.SidePanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +50,16 @@ namespace Therapheye
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(273, 486);
             this.panel1.TabIndex = 2;
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.SidePanel.Location = new System.Drawing.Point(8, 15);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(9, 63);
+            this.SidePanel.TabIndex = 13;
             // 
             // button3
             // 
@@ -91,16 +101,6 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.SidePanel.Location = new System.Drawing.Point(8, 15);
-            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(9, 63);
-            this.SidePanel.TabIndex = 13;
-            // 
             // FormFocus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -110,6 +110,7 @@ namespace Therapheye
             this.Name = "FormFocus";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enfoque";
             this.Load += new System.EventHandler(this.FormFocus_Load);
             this.panel1.ResumeLayout(false);

@@ -118,11 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>     
-     Horario de uso: (Recomendado)
-      Al despertar: 	     7:00 AM | 9:00 AM  | 1:00 PM | 7:00 PM
-      Mitad del día:	     2:00 PM | 4:00 PM   | 8:00 PM | 2:00 PM
-      Antes de dormir:     9:00 PM | 11:00 PM  | 3:00 AM | 9:00 AM</value>
+    <value>     Horario de uso: (Recomendado)
+      Al despertar: 	       7:00 AM | 9:00 AM  | 1:00 PM | 7:00 PM
+      Mitad del día:	       2:00 PM | 4:00 PM   | 8:00 PM | 2:00 PM
+      Antes de dormir:    9:00 PM | 11:00 PM  | 3:00 AM | 9:00 AM</value>
   </data>
   <data name="richTextBox3.Text" xml:space="preserve">
     <value>Para brindar resultados más precisos y objetivos se recomienda llevar a cabo los ejercicios en rangos de hora específicos, los cuales se detallan en el panel adyacente.

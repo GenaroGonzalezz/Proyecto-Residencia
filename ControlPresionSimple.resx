@@ -121,8 +121,11 @@
     <value>Instrucciones
 
 1.- Sientese en un lugar tranquilo para proceder a cerrar los ojos con una leve presión ejercida por los párpados
-2.- Mantenga los ojos cerrados entre 10 a 60 segundos según su nivel de fatiga.
+2.- Mantenga los ojos cerrados entre 30 a 60 segundos según su nivel de fatiga.
 Durante el transcurso de este tiempo sus ojos serán rehidratados y se dará la oportunidad de relajarlos.
 3.- Abra los ojos lentamente para finalizar la actividad</value>
   </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

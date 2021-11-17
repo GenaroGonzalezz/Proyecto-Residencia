@@ -331,6 +331,7 @@
     <None Include="Resources\E.png" />
     <None Include="Resources\Luteina.png" />
     <None Include="Resources\Categorias %284%291.png" />
+    <Content Include="Resources\doorbell2-6450.wav" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>
