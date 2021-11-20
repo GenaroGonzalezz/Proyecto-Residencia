@@ -65,7 +65,7 @@ namespace Therapheye
             this.flowLayoutPanel1.Controls.Add(this.richTextBox1);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 77);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 382);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 394);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // richTextBox1
@@ -76,7 +76,7 @@ namespace Therapheye
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(456, 390);
+            this.richTextBox1.Size = new System.Drawing.Size(456, 377);
             this.richTextBox1.TabIndex = 27;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -157,7 +157,7 @@ namespace Therapheye
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Location = new System.Drawing.Point(489, 77);
+            this.pictureBox1.Location = new System.Drawing.Point(493, 77);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(484, 170);
             this.pictureBox1.TabIndex = 7;

@@ -35,5 +35,11 @@ namespace Therapheye
             FormUpDown fud = new FormUpDown();
             fud.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormLaterales fl = new FormLaterales();
+            fl.ShowDialog();
+        }
     }
 }

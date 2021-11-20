@@ -74,3 +74,4 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormSuplementos.reso
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlPresionSimple.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormUpDown.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormLaterales.resources
