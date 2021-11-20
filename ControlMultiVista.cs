@@ -24,6 +24,11 @@ namespace Therapheye
 
         private void ControlMultiVista_Load(object sender, EventArgs e)
         {
+            button1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\arribaAbajo.gif");
+             button1.BackgroundImageLayout =  ImageLayout.Zoom;
+            button3.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\laterales.gif");
+            button3.BackgroundImageLayout = ImageLayout.Zoom;
+
             pictureBox6.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\Lateral.gif");
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\upndown.gif");
@@ -34,6 +39,8 @@ namespace Therapheye
         {
             FormUpDown fud = new FormUpDown();
             fud.ShowDialog();
+           
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
