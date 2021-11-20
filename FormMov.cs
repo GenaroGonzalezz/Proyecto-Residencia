@@ -28,6 +28,7 @@ namespace Therapheye
             controlAlternar1.Visible = true;
 
             controlMultiVista1.Visible = false;
+            controlCirculo1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +37,7 @@ namespace Therapheye
             controlMultiVista1.Visible = true;
 
             controlAlternar1.Visible = false;
+            controlCirculo1.Visible = false;
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -45,7 +47,11 @@ namespace Therapheye
 
         private void button3_Click(object sender, EventArgs e)
         {
+            controlCirculo1.BringToFront();
+            controlCirculo1.Visible = true;
 
+            controlMultiVista1.Visible = false;
+            controlAlternar1.Visible = false;
         }
     }
 }

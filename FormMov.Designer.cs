@@ -38,6 +38,7 @@ namespace Therapheye
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.controlCirculo1 = new Therapheye.ControlCirculo();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,11 +160,21 @@ namespace Therapheye
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // controlCirculo1
+            // 
+            this.controlCirculo1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.controlCirculo1.Location = new System.Drawing.Point(281, 1);
+            this.controlCirculo1.Name = "controlCirculo1";
+            this.controlCirculo1.Size = new System.Drawing.Size(980, 485);
+            this.controlCirculo1.TabIndex = 4;
+            this.controlCirculo1.Visible = false;
+            // 
             // FormMov
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlCirculo1);
             this.Controls.Add(this.controlMultiVista1);
             this.Controls.Add(this.controlAlternar1);
             this.Controls.Add(this.panel1);
@@ -190,5 +201,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private ControlCirculo controlCirculo1;
     }
 }

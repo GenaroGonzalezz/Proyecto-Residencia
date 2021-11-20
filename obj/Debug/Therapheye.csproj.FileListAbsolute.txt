@@ -72,6 +72,8 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormPresion.resource
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormFocus.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormSuplementos.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlPresionSimple.resources
-C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormUpDown.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormLaterales.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlCirculo.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormCirculo.resources

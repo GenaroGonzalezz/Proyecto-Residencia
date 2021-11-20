@@ -24,7 +24,8 @@ namespace Therapheye
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormCirculo fc = new FormCirculo();
+            fc.ShowDialog();
         }
     }
 }

@@ -149,6 +149,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCirculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCirculo.Designer.cs">
+      <DependentUpon>FormCirculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFocus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -249,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCirculo.resx">
+      <DependentUpon>FormCirculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFocus.resx">
       <DependentUpon>FormFocus.cs</DependentUpon>
