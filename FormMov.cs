@@ -53,5 +53,15 @@ namespace Therapheye
             controlMultiVista1.Visible = false;
             controlAlternar1.Visible = false;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            controlInfinitocs1.BringToFront();
+            controlInfinitocs1.Visible = true;
+
+            controlMultiVista1.Visible = false;
+            controlAlternar1.Visible = false;
+            controlCirculo1.Visible = false;
+        }
     }
 }

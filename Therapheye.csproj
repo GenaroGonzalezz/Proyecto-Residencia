@@ -94,6 +94,12 @@
     <Compile Include="ControlGreenwood.Designer.cs">
       <DependentUpon>ControlGreenwood.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlInfinitocs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlInfinitocs.Designer.cs">
+      <DependentUpon>ControlInfinitocs.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlInicio.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -167,6 +173,12 @@
     <Compile Include="FormHabitos.Designer.cs">
       <DependentUpon>FormHabitos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormInfinito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInfinito.Designer.cs">
+      <DependentUpon>FormInfinito.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLaterales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +241,9 @@
     <EmbeddedResource Include="ControlGreenwood.resx">
       <DependentUpon>ControlGreenwood.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlInfinitocs.resx">
+      <DependentUpon>ControlInfinitocs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlInicio.resx">
       <DependentUpon>ControlInicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -264,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHabitos.resx">
       <DependentUpon>FormHabitos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInfinito.resx">
+      <DependentUpon>FormInfinito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLaterales.resx">
       <DependentUpon>FormLaterales.cs</DependentUpon>
@@ -368,6 +386,7 @@
     <None Include="Resources\Luteina.png" />
     <None Include="Resources\Categorias %284%291.png" />
     <Content Include="Resources\doorbell2-6450.wav" />
+    <None Include="Resources\infinito.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>

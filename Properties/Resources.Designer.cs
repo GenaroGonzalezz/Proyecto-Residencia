@@ -463,6 +463,16 @@ namespace Therapheye.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap infinito {
+            get {
+                object obj = ResourceManager.GetObject("infinito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lados {
             get {
                 object obj = ResourceManager.GetObject("Lados", resourceCulture);

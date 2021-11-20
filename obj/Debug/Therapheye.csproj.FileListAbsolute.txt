@@ -77,3 +77,5 @@ C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormLaterales.resour
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlCirculo.resources
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormCirculo.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.ControlInfinitocs.resources
+C:\Users\Gena4\source\repos\Therapheye\obj\Debug\Therapheye.FormInfinito.resources
