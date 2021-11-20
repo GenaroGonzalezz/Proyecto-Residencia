@@ -37,5 +37,15 @@ namespace Therapheye
 
             controlAlternar1.Visible = false;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormMov.ActiveForm.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
