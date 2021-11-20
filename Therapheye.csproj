@@ -70,6 +70,12 @@
     <Compile Include="ControlAmsler.Designer.cs">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlCirculo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlCirculo.Designer.cs">
+      <DependentUpon>ControlCirculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlCirculoHorario.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -204,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlAmsler.resx">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCirculo.resx">
+      <DependentUpon>ControlCirculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlCirculoHorario.resx">
       <DependentUpon>ControlCirculoHorario.cs</DependentUpon>
