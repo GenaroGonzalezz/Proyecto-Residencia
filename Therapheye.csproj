@@ -179,6 +179,12 @@
     <Compile Include="FormTestGreenwood.Designer.cs">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpDown.Designer.cs">
+      <DependentUpon>FormUpDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVisNoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -246,6 +252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTestGreenwood.resx">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpDown.resx">
+      <DependentUpon>FormUpDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVisNoc.resx">
       <DependentUpon>FormVisNoc.cs</DependentUpon>

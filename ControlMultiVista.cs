@@ -29,5 +29,11 @@ namespace Therapheye
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\upndown.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormUpDown fud = new FormUpDown();
+            fud.ShowDialog();
+        }
     }
 }
