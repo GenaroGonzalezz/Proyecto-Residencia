@@ -24,12 +24,15 @@ namespace Therapheye
 
         private void ControlPresionSimple_Load(object sender, EventArgs e)
         {
+            txtSeg.Text = "00";
+            txtMil.Text = "000";
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\Presión.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            reloj.Reset();
             FormPresion.ActiveForm.Close();
         }
 
@@ -48,14 +51,20 @@ namespace Therapheye
             txtMil.Text = ts.Milliseconds.ToString();
 
            
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Gena4\Documents\Audacity\doorbell2-6450.wav");
-            System.Media.SoundPlayer toca = new System.Media.SoundPlayer("doorbell2-6450.wav");
-            if (ts.Seconds == 4) { player.Play(); }
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Gena4\source\repos\Therapheye\Resources\ring.wav");
+            System.Media.SoundPlayer toca = new System.Media.SoundPlayer("ring.wav");
+            if (ts.Seconds == 15) { player.Play(); }
+            if (ts.Seconds == 30) { player.Play(); reloj.Reset(); }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            reloj.Reset();
         }
     }
 }
