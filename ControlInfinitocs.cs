@@ -27,5 +27,10 @@ namespace Therapheye
             FormInfinito fi = new FormInfinito();
             fi.ShowDialog();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

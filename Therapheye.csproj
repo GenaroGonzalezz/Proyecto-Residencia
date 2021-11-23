@@ -136,6 +136,12 @@
     <Compile Include="ControlPresionSimple.Designer.cs">
       <DependentUpon>ControlPresionSimple.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlRectangulo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlRectangulo.Designer.cs">
+      <DependentUpon>ControlRectangulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlTestFinal.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -196,6 +202,12 @@
     </Compile>
     <Compile Include="FormPresion.Designer.cs">
       <DependentUpon>FormPresion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRectagulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRectagulo.Designer.cs">
+      <DependentUpon>FormRectagulo.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSuplementos.cs">
       <SubType>Form</SubType>
@@ -262,6 +274,9 @@
     <EmbeddedResource Include="ControlPresionSimple.resx">
       <DependentUpon>ControlPresionSimple.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlRectangulo.resx">
+      <DependentUpon>ControlRectangulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlTestFinal.resx">
       <DependentUpon>ControlTestFinal.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPresion.resx">
       <DependentUpon>FormPresion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRectagulo.resx">
+      <DependentUpon>FormRectagulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSuplementos.resx">
       <DependentUpon>FormSuplementos.cs</DependentUpon>

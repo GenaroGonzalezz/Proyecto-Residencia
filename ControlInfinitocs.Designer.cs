@@ -103,6 +103,7 @@ namespace Therapheye
             this.pictureBox6.Size = new System.Drawing.Size(467, 434);
             this.pictureBox6.TabIndex = 35;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // ControlInfinitocs
             // 

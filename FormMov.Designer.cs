@@ -40,6 +40,7 @@ namespace Therapheye
             this.controlMultiVista1 = new Therapheye.ControlMultiVista();
             this.controlAlternar1 = new Therapheye.ControlAlternar();
             this.controlInfinitocs1 = new Therapheye.ControlInfinitocs();
+            this.controlRectangulo1 = new Therapheye.ControlRectangulo();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +86,7 @@ namespace Therapheye
             this.button5.TabIndex = 5;
             this.button5.Text = "Rectángulo";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -180,11 +182,21 @@ namespace Therapheye
             this.controlInfinitocs1.TabIndex = 5;
             this.controlInfinitocs1.Visible = false;
             // 
+            // controlRectangulo1
+            // 
+            this.controlRectangulo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlRectangulo1.Location = new System.Drawing.Point(280, 0);
+            this.controlRectangulo1.Name = "controlRectangulo1";
+            this.controlRectangulo1.Size = new System.Drawing.Size(979, 485);
+            this.controlRectangulo1.TabIndex = 6;
+            this.controlRectangulo1.Visible = false;
+            // 
             // FormMov
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlRectangulo1);
             this.Controls.Add(this.controlInfinitocs1);
             this.Controls.Add(this.controlCirculo1);
             this.Controls.Add(this.controlMultiVista1);
@@ -215,5 +227,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button4;
         private ControlCirculo controlCirculo1;
         private ControlInfinitocs controlInfinitocs1;
+        private ControlRectangulo controlRectangulo1;
     }
 }
