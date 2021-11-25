@@ -130,6 +130,12 @@
     <Compile Include="ControlPelli.Designer.cs">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlPresionMano.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPresionMano.Designer.cs">
+      <DependentUpon>ControlPresionMano.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlPresionSimple.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -271,6 +277,9 @@
     <EmbeddedResource Include="ControlPelli.resx">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlPresionMano.resx">
+      <DependentUpon>ControlPresionMano.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlPresionSimple.resx">
       <DependentUpon>ControlPresionSimple.cs</DependentUpon>
     </EmbeddedResource>
@@ -350,6 +359,7 @@
     <None Include="Resources\pinguino.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\presionMano.jpg" />
     <None Include="Resources\Zn.png" />
     <None Include="Resources\test.jpg" />
     <None Include="Resources\test-visual-ojos-twitter-SF-1.jpg" />

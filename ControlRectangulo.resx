@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>
-Cuando concentras tu visión sueles hacerlo en una sola dirección, por eso es importante dar juego a tu visión periférica moviendo los ojos en todas direcciones. También puedes moverlos teniéndolos cerrados.
-Mantén la cabeza recta mientras estás sentado. Dirige la mirada lo más lejos que puedas y manténla durante dos o tres segundos en cada uno de los cuatro puntos: arriba, abajo, izquierda, derecha. Repite el ejercicio tres veces.
+    <value>Instrucciones:
+
+Mantén la cabeza recta mientras estás sentado. Dirige la mirada lo más lejos que puedas y manténla en movimientos rectangulares durante 5 segundos. Repite el ejercicio tres veces.
 También puedes utilizar los recursos disponibles en los botones inferiores para acceder a ejercicios gráficos.
 1.- Entrecierre sus ojos.
 2.- Fije la vista en el círculo hasta finalizar el tiempo del contador.</value>
