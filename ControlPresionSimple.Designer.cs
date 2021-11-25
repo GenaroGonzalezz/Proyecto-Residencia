@@ -208,6 +208,7 @@ namespace Therapheye
             this.Name = "ControlPresionSimple";
             this.Size = new System.Drawing.Size(993, 487);
             this.Load += new System.EventHandler(this.ControlPresionSimple_Load);
+            this.Leave += new System.EventHandler(this.ControlPresionSimple_Leave);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

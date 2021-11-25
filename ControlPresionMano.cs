@@ -21,9 +21,15 @@ namespace Therapheye
             InitializeComponent();
         }
 
+        
+
         private void ControlPresionMano_Load(object sender, EventArgs e)
         {
-            
+            txtSeg.Text = "00";
+            txtMil.Text = "000";
+
+            //if (this.ActiveControl.IsDisposed) { reloj.Reset(); }
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,10 +47,10 @@ namespace Therapheye
             txtMil.Text = ts.Milliseconds.ToString();
 
 
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Gena4\source\repos\Therapheye\Resources\ring.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Gena4\source\repos\Therapheye\Resources\ring2.wav");
             System.Media.SoundPlayer toca = new System.Media.SoundPlayer("ring.wav");
-            if (ts.Seconds == 15) { player.Play(); }
-            if (ts.Seconds == 30) { player.Play(); reloj.Reset(); }
+            if (ts.Seconds == 9 ) { player.Play(); }
+            if (ts.Seconds == 20 ) { player.Play(); reloj.Reset(); }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -56,6 +62,14 @@ namespace Therapheye
         {
             reloj.Reset();
             FormPresion.ActiveForm.Close();
+            FormPresion.ActiveForm.Dispose();
+            this.Dispose();
+        }
+
+        private void ControlPresionMano_Leave(object sender, EventArgs e)
+        {
+            reloj.Reset();
+            
         }
     }
 }

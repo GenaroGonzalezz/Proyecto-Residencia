@@ -188,6 +188,7 @@ namespace Therapheye
             this.Name = "ControlPresionMano";
             this.Size = new System.Drawing.Size(993, 487);
             this.Load += new System.EventHandler(this.ControlPresionMano_Load);
+            this.Leave += new System.EventHandler(this.ControlPresionMano_Leave);
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

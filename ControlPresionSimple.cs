@@ -66,5 +66,10 @@ namespace Therapheye
         {
             reloj.Reset();
         }
+
+        private void ControlPresionSimple_Leave(object sender, EventArgs e)
+        {
+            reloj.Reset();
+        }
     }
 }
