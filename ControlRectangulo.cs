@@ -24,8 +24,8 @@ namespace Therapheye
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FormInfinito fi = new FormInfinito();
-            fi.ShowDialog();
+            FormRectagulo fr = new FormRectagulo();
+            fr.ShowDialog();
         }
 
         private void ControlRectangulo_Load(object sender, EventArgs e)
