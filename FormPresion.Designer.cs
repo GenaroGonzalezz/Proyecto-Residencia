@@ -36,6 +36,7 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.controlPresionCuenca1 = new Therapheye.ControlPresionCuenca();
             this.controlPresionMano1 = new Therapheye.ControlPresionMano();
             this.controlPresionSimple1 = new Therapheye.ControlPresionSimple();
             this.panel1.SuspendLayout();
@@ -90,7 +91,7 @@ namespace Therapheye
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(236, 63);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Otro Ejercicio";
+            this.button4.Text = "Masaje en Globos oculares";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -104,7 +105,7 @@ namespace Therapheye
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(236, 63);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Masaje de globo ocular";
+            this.button3.Text = "Presión con pulgar";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -136,10 +137,19 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // controlPresionCuenca1
+            // 
+            this.controlPresionCuenca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlPresionCuenca1.Location = new System.Drawing.Point(269, -1);
+            this.controlPresionCuenca1.Name = "controlPresionCuenca1";
+            this.controlPresionCuenca1.Size = new System.Drawing.Size(993, 487);
+            this.controlPresionCuenca1.TabIndex = 4;
+            this.controlPresionCuenca1.Visible = false;
+            // 
             // controlPresionMano1
             // 
             this.controlPresionMano1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlPresionMano1.Location = new System.Drawing.Point(269, 0);
+            this.controlPresionMano1.Location = new System.Drawing.Point(269, -1);
             this.controlPresionMano1.Name = "controlPresionMano1";
             this.controlPresionMano1.Size = new System.Drawing.Size(993, 487);
             this.controlPresionMano1.TabIndex = 3;
@@ -163,6 +173,7 @@ namespace Therapheye
             this.Controls.Add(this.controlPresionMano1);
             this.Controls.Add(this.controlPresionSimple1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.controlPresionCuenca1);
             this.Name = "FormPresion";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
@@ -184,5 +195,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button1;
         private ControlPresionSimple controlPresionSimple1;
         private ControlPresionMano controlPresionMano1;
+        private ControlPresionCuenca controlPresionCuenca1;
     }
 }

@@ -593,6 +593,16 @@ namespace Therapheye.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap presionCuenca {
+            get {
+                object obj = ResourceManager.GetObject("presionCuenca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap presionMano {
             get {
                 object obj = ResourceManager.GetObject("presionMano", resourceCulture);
