@@ -45,7 +45,7 @@ namespace Therapheye
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(37, 413);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
@@ -83,11 +83,11 @@ namespace Therapheye
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(191, 413);
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(188, 413);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 57);
+            this.button1.Size = new System.Drawing.Size(160, 57);
             this.button1.TabIndex = 34;
             this.button1.Text = "Ejercicio 1";
             this.button1.UseVisualStyleBackColor = false;
@@ -97,11 +97,11 @@ namespace Therapheye
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(362, 413);
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(365, 413);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 57);
+            this.button3.Size = new System.Drawing.Size(160, 57);
             this.button3.TabIndex = 35;
             this.button3.Text = "Ejercicio 2";
             this.button3.UseVisualStyleBackColor = false;
@@ -124,7 +124,7 @@ namespace Therapheye
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.pictureBox6.BackgroundImage = global::Therapheye.Properties.Resources.Lados;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(533, 61);
+            this.pictureBox6.Location = new System.Drawing.Point(533, 56);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(416, 201);

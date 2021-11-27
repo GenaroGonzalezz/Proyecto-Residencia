@@ -24,7 +24,6 @@ namespace Therapheye
 
         private void ControlPresionSimple_Load(object sender, EventArgs e)
         {
-            txtMin.Text = "00";
             txtSeg.Text = "00";
             txtMil.Text = "000";
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\Presión.gif");
@@ -33,8 +32,8 @@ namespace Therapheye
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormPresion.ActiveForm.Close();
             reloj.Reset();
+            FormPresion.ActiveForm.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,8 +44,6 @@ namespace Therapheye
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-
             TimeSpan ts = new TimeSpan(0, 0, 0, 0, (int)reloj.ElapsedMilliseconds);
 
             txtMin.Text = ts.Minutes.ToString().Length<2 ? "0" + ts.Minutes.ToString() : ts.Minutes.ToString();
@@ -65,17 +62,12 @@ namespace Therapheye
 
         }
 
-        private void txtSeg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtMil_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
+        {
+            reloj.Reset();
+        }
+
+        private void ControlPresionSimple_Leave(object sender, EventArgs e)
         {
             reloj.Reset();
         }

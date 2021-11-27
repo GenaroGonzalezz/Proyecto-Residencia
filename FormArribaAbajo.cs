@@ -32,5 +32,10 @@ namespace Therapheye
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\arribaAbajo.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

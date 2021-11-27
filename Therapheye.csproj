@@ -35,9 +35,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>Logo 1.ico</ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,6 +70,12 @@
     <Compile Include="ControlAmsler.Designer.cs">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlCirculo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlCirculo.Designer.cs">
+      <DependentUpon>ControlCirculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlCirculoHorario.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -90,6 +93,12 @@
     </Compile>
     <Compile Include="ControlGreenwood.Designer.cs">
       <DependentUpon>ControlGreenwood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfinitocs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlInfinitocs.Designer.cs">
+      <DependentUpon>ControlInfinitocs.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlInicio.cs">
       <SubType>UserControl</SubType>
@@ -121,11 +130,23 @@
     <Compile Include="ControlPelli.Designer.cs">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlPresionMano.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPresionMano.Designer.cs">
+      <DependentUpon>ControlPresionMano.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlPresionSimple.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ControlPresionSimple.Designer.cs">
       <DependentUpon>ControlPresionSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlRectangulo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlRectangulo.Designer.cs">
+      <DependentUpon>ControlRectangulo.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlTestFinal.cs">
       <SubType>UserControl</SubType>
@@ -146,11 +167,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArribaAbajo.cs">
+    <Compile Include="FormCirculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArribaAbajo.Designer.cs">
-      <DependentUpon>FormArribaAbajo.cs</DependentUpon>
+    <Compile Include="FormCirculo.Designer.cs">
+      <DependentUpon>FormCirculo.cs</DependentUpon>
     </Compile>
     <Compile Include="FormFocus.cs">
       <SubType>Form</SubType>
@@ -164,11 +185,17 @@
     <Compile Include="FormHabitos.Designer.cs">
       <DependentUpon>FormHabitos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormIzqDer.cs">
+    <Compile Include="FormInfinito.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormIzqDer.Designer.cs">
-      <DependentUpon>FormIzqDer.cs</DependentUpon>
+    <Compile Include="FormInfinito.Designer.cs">
+      <DependentUpon>FormInfinito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaterales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaterales.Designer.cs">
+      <DependentUpon>FormLaterales.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMov.cs">
       <SubType>Form</SubType>
@@ -182,6 +209,12 @@
     <Compile Include="FormPresion.Designer.cs">
       <DependentUpon>FormPresion.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRectagulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRectagulo.Designer.cs">
+      <DependentUpon>FormRectagulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSuplementos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +226,12 @@
     </Compile>
     <Compile Include="FormTestGreenwood.Designer.cs">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpDown.Designer.cs">
+      <DependentUpon>FormUpDown.cs</DependentUpon>
     </Compile>
     <Compile Include="FormVisNoc.cs">
       <SubType>Form</SubType>
@@ -208,6 +247,9 @@
     <EmbeddedResource Include="ControlAmsler.resx">
       <DependentUpon>ControlAmsler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlCirculo.resx">
+      <DependentUpon>ControlCirculo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlCirculoHorario.resx">
       <DependentUpon>ControlCirculoHorario.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlGreenwood.resx">
       <DependentUpon>ControlGreenwood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlInfinitocs.resx">
+      <DependentUpon>ControlInfinitocs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlInicio.resx">
       <DependentUpon>ControlInicio.cs</DependentUpon>
@@ -232,8 +277,14 @@
     <EmbeddedResource Include="ControlPelli.resx">
       <DependentUpon>ControlPelli.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlPresionMano.resx">
+      <DependentUpon>ControlPresionMano.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlPresionSimple.resx">
       <DependentUpon>ControlPresionSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlRectangulo.resx">
+      <DependentUpon>ControlRectangulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlTestFinal.resx">
       <DependentUpon>ControlTestFinal.cs</DependentUpon>
@@ -244,8 +295,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArribaAbajo.resx">
-      <DependentUpon>FormArribaAbajo.cs</DependentUpon>
+    <EmbeddedResource Include="FormCirculo.resx">
+      <DependentUpon>FormCirculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFocus.resx">
       <DependentUpon>FormFocus.cs</DependentUpon>
@@ -253,8 +304,11 @@
     <EmbeddedResource Include="FormHabitos.resx">
       <DependentUpon>FormHabitos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIzqDer.resx">
-      <DependentUpon>FormIzqDer.cs</DependentUpon>
+    <EmbeddedResource Include="FormInfinito.resx">
+      <DependentUpon>FormInfinito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaterales.resx">
+      <DependentUpon>FormLaterales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMov.resx">
       <DependentUpon>FormMov.cs</DependentUpon>
@@ -262,11 +316,17 @@
     <EmbeddedResource Include="FormPresion.resx">
       <DependentUpon>FormPresion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormRectagulo.resx">
+      <DependentUpon>FormRectagulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSuplementos.resx">
       <DependentUpon>FormSuplementos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTestGreenwood.resx">
       <DependentUpon>FormTestGreenwood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpDown.resx">
+      <DependentUpon>FormUpDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVisNoc.resx">
       <DependentUpon>FormVisNoc.cs</DependentUpon>
@@ -299,6 +359,7 @@
     <None Include="Resources\pinguino.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\presionMano.jpg" />
     <None Include="Resources\Zn.png" />
     <None Include="Resources\test.jpg" />
     <None Include="Resources\test-visual-ojos-twitter-SF-1.jpg" />
@@ -352,8 +413,8 @@
     <None Include="Resources\E.png" />
     <None Include="Resources\Luteina.png" />
     <None Include="Resources\Categorias %284%291.png" />
-    <Content Include="Logo 1.ico" />
     <Content Include="Resources\doorbell2-6450.wav" />
+    <None Include="Resources\infinito.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>
