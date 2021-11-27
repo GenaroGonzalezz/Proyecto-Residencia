@@ -36,9 +36,10 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.controlPresionCuenca1 = new Therapheye.ControlPresionCuenca();
+            this.controlMasajeGlobo1 = new Therapheye.ControlMasajeGlobo();
             this.controlPresionMano1 = new Therapheye.ControlPresionMano();
             this.controlPresionSimple1 = new Therapheye.ControlPresionSimple();
+            this.controlPresionCuenca1 = new Therapheye.ControlPresionCuenca();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,14 +138,14 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // controlPresionCuenca1
+            // controlMasajeGlobo1
             // 
-            this.controlPresionCuenca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlPresionCuenca1.Location = new System.Drawing.Point(269, -1);
-            this.controlPresionCuenca1.Name = "controlPresionCuenca1";
-            this.controlPresionCuenca1.Size = new System.Drawing.Size(993, 487);
-            this.controlPresionCuenca1.TabIndex = 4;
-            this.controlPresionCuenca1.Visible = false;
+            this.controlMasajeGlobo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlMasajeGlobo1.Location = new System.Drawing.Point(269, -1);
+            this.controlMasajeGlobo1.Name = "controlMasajeGlobo1";
+            this.controlMasajeGlobo1.Size = new System.Drawing.Size(993, 487);
+            this.controlMasajeGlobo1.TabIndex = 5;
+            this.controlMasajeGlobo1.Visible = false;
             // 
             // controlPresionMano1
             // 
@@ -165,11 +166,21 @@ namespace Therapheye
             this.controlPresionSimple1.Visible = false;
             this.controlPresionSimple1.Load += new System.EventHandler(this.controlPresionSimple1_Load);
             // 
+            // controlPresionCuenca1
+            // 
+            this.controlPresionCuenca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlPresionCuenca1.Location = new System.Drawing.Point(269, -1);
+            this.controlPresionCuenca1.Name = "controlPresionCuenca1";
+            this.controlPresionCuenca1.Size = new System.Drawing.Size(993, 487);
+            this.controlPresionCuenca1.TabIndex = 4;
+            this.controlPresionCuenca1.Visible = false;
+            // 
             // FormPresion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlMasajeGlobo1);
             this.Controls.Add(this.controlPresionMano1);
             this.Controls.Add(this.controlPresionSimple1);
             this.Controls.Add(this.panel1);
@@ -196,5 +207,6 @@ namespace Therapheye
         private ControlPresionSimple controlPresionSimple1;
         private ControlPresionMano controlPresionMano1;
         private ControlPresionCuenca controlPresionCuenca1;
+        private ControlMasajeGlobo controlMasajeGlobo1;
     }
 }

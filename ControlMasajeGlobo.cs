@@ -25,7 +25,7 @@ namespace Therapheye
         {
             txtSeg.Text = "00";
             txtMil.Text = "000";
-            pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapheye\Resources\masajeGlobo.gif");
+            pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapeye\Resources\masajeGlobo.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
@@ -64,6 +64,11 @@ namespace Therapheye
             System.Media.SoundPlayer toca = new System.Media.SoundPlayer("ring.wav");
             if (ts.Seconds == 15) { player.Play(); }
             if (ts.Seconds == 30) { player.Play(); reloj.Reset(); }
+        }
+
+        private void ControlMasajeGlobo_Leave(object sender, EventArgs e)
+        {
+            reloj.Reset();
         }
     }
 }
