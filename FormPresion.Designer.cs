@@ -79,7 +79,7 @@ namespace Therapheye
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(236, 63);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Otro ejercicio";
+            this.button5.Text = "Masaje Cuenca";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button4

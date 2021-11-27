@@ -112,6 +112,12 @@
     <Compile Include="ControlIshihara.Designer.cs">
       <DependentUpon>ControlIshihara.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlMasajeCuenca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlMasajeCuenca.Designer.cs">
+      <DependentUpon>ControlMasajeCuenca.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlMasajeGlobo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -279,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlIshihara.resx">
       <DependentUpon>ControlIshihara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMasajeCuenca.resx">
+      <DependentUpon>ControlMasajeCuenca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMasajeGlobo.resx">
       <DependentUpon>ControlMasajeGlobo.cs</DependentUpon>

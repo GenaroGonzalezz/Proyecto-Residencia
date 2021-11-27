@@ -178,3 +178,4 @@ C:\Users\Gena4\source\repos\Therapeye\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Gena4\source\repos\Therapeye\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.csproj.CopyComplete
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeGlobo.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeCuenca.resources
