@@ -28,6 +28,7 @@ namespace Therapheye
             controlPresionMano1.Visible = false;
             controlPresionCuenca1.Visible = false;
             controlPresionCuenca1.Visible = false;
+            controlMasajeCuenca1.Visible = false;
         }
 
         private void controlPresionSimple1_Load(object sender, EventArgs e)
@@ -45,6 +46,7 @@ namespace Therapheye
             controlPresionSimple1.Visible = false;
             controlPresionCuenca1.Visible = false;
             controlPresionCuenca1.Visible = false;
+            controlMasajeCuenca1.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -57,6 +59,7 @@ namespace Therapheye
             controlPresionSimple1.Visible = false;
             controlPresionMano1.Visible = false;
             controlPresionCuenca1.Visible = false;
+            controlMasajeCuenca1.Visible = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -69,8 +72,21 @@ namespace Therapheye
             controlPresionSimple1.Visible = false;
             controlPresionMano1.Visible = false;
             controlPresionCuenca1.Visible = false;
+            controlMasajeCuenca1.Visible = false;
 
+        }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button5.Height;
+            SidePanel.Top = button5.Top;
+            controlMasajeCuenca1.Visible = true;
+            controlMasajeCuenca1.BringToFront();
+
+            controlPresionSimple1.Visible = false;
+            controlPresionMano1.Visible = false;
+            controlPresionCuenca1.Visible = false;
+            controlMasajeGlobo1.Visible = false;
         }
     }
 }

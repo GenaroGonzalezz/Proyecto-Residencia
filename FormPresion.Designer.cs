@@ -36,6 +36,7 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.controlMasajeCuenca1 = new Therapheye.ControlMasajeCuenca();
             this.controlMasajeGlobo1 = new Therapheye.ControlMasajeGlobo();
             this.controlPresionMano1 = new Therapheye.ControlPresionMano();
             this.controlPresionSimple1 = new Therapheye.ControlPresionSimple();
@@ -81,6 +82,7 @@ namespace Therapheye
             this.button5.TabIndex = 5;
             this.button5.Text = "Masaje Cuenca";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -138,6 +140,15 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // controlMasajeCuenca1
+            // 
+            this.controlMasajeCuenca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlMasajeCuenca1.Location = new System.Drawing.Point(269, -1);
+            this.controlMasajeCuenca1.Name = "controlMasajeCuenca1";
+            this.controlMasajeCuenca1.Size = new System.Drawing.Size(993, 487);
+            this.controlMasajeCuenca1.TabIndex = 6;
+            this.controlMasajeCuenca1.Visible = false;
+            // 
             // controlMasajeGlobo1
             // 
             this.controlMasajeGlobo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
@@ -180,6 +191,7 @@ namespace Therapheye
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlMasajeCuenca1);
             this.Controls.Add(this.controlMasajeGlobo1);
             this.Controls.Add(this.controlPresionMano1);
             this.Controls.Add(this.controlPresionSimple1);
@@ -208,5 +220,6 @@ namespace Therapheye
         private ControlPresionMano controlPresionMano1;
         private ControlPresionCuenca controlPresionCuenca1;
         private ControlMasajeGlobo controlMasajeGlobo1;
+        private ControlMasajeCuenca controlMasajeCuenca1;
     }
 }
