@@ -182,7 +182,6 @@ namespace Therapheye
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.radioButton4);
@@ -190,6 +189,7 @@ namespace Therapheye
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.richTextBox1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ControlTestInicial";
             this.Size = new System.Drawing.Size(747, 305);

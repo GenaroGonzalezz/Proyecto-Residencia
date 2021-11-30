@@ -45,7 +45,7 @@ namespace Therapheye
 
             controlPresionSimple1.Visible = false;
             controlPresionCuenca1.Visible = false;
-            controlPresionCuenca1.Visible = false;
+           
             controlMasajeCuenca1.Visible = false;
         }
 
@@ -58,7 +58,7 @@ namespace Therapheye
 
             controlPresionSimple1.Visible = false;
             controlPresionMano1.Visible = false;
-            controlPresionCuenca1.Visible = false;
+            
             controlMasajeCuenca1.Visible = false;
         }
 

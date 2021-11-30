@@ -188,7 +188,7 @@ namespace Therapheye
             RealizaPregunta();
             button1.Visible = false;
             btnSiguiente.Visible = true;
-
+            label1.Visible = false;
 
         }
         private void RealizaPregunta() 
