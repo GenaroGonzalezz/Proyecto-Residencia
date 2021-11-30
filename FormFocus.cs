@@ -26,6 +26,8 @@ namespace Therapheye
         {
             SidePanel.Height = button1.Height;
             SidePanel.Top = button1.Top;
+            controlAcercarAlejar1.Visible = true;
+            controlAcercarAlejar1.BringToFront();
         }
     }
 }
