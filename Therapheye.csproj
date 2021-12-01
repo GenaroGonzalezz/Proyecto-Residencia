@@ -94,6 +94,12 @@
     <Compile Include="ControlEjercicios.Designer.cs">
       <DependentUpon>ControlEjercicios.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlEnfoqueDistancia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlEnfoqueDistancia.Designer.cs">
+      <DependentUpon>ControlEnfoqueDistancia.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlGreenwood.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -197,6 +203,12 @@
     <Compile Include="FormCirculo.Designer.cs">
       <DependentUpon>FormCirculo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEnfoqueDistancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnfoqueDistancia.Designer.cs">
+      <DependentUpon>FormEnfoqueDistancia.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFocus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -283,6 +295,9 @@
     <EmbeddedResource Include="ControlEjercicios.resx">
       <DependentUpon>ControlEjercicios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlEnfoqueDistancia.resx">
+      <DependentUpon>ControlEnfoqueDistancia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlGreenwood.resx">
       <DependentUpon>ControlGreenwood.cs</DependentUpon>
     </EmbeddedResource>
@@ -333,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCirculo.resx">
       <DependentUpon>FormCirculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnfoqueDistancia.resx">
+      <DependentUpon>FormEnfoqueDistancia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFocus.resx">
       <DependentUpon>FormFocus.cs</DependentUpon>
@@ -452,6 +470,9 @@
     <None Include="Resources\Categorias %284%291.png" />
     <Content Include="Resources\doorbell2-6450.wav" />
     <None Include="Resources\infinito.png" />
+    <None Include="Resources\enfoquePulgar.png" />
+    <None Include="Resources\enfoquemesa.png" />
+    <None Include="Resources\enfoqueCajon.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>
