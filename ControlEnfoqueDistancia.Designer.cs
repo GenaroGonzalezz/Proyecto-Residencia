@@ -44,9 +44,9 @@ namespace Therapheye
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(16, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(652, 38);
+            this.label1.Size = new System.Drawing.Size(389, 38);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Ejercicio enfoque en acercamiento y alejamiento";
+            this.label1.Text = "Ejercicio enfoque a distancia";
             // 
             // flowLayoutPanel1
             // 

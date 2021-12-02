@@ -35,6 +35,7 @@ namespace Therapheye
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.controlAcercarAlejar1 = new Therapheye.ControlAcercarAlejar();
+            this.controlEnfoqueDistancia1 = new Therapheye.ControlEnfoqueDistancia();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,6 +88,7 @@ namespace Therapheye
             this.button2.TabIndex = 2;
             this.button2.Text = "Enfoque a distancia";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -111,11 +113,20 @@ namespace Therapheye
             this.controlAcercarAlejar1.TabIndex = 3;
             this.controlAcercarAlejar1.Visible = false;
             // 
+            // controlEnfoqueDistancia1
+            // 
+            this.controlEnfoqueDistancia1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlEnfoqueDistancia1.Location = new System.Drawing.Point(275, 0);
+            this.controlEnfoqueDistancia1.Name = "controlEnfoqueDistancia1";
+            this.controlEnfoqueDistancia1.Size = new System.Drawing.Size(993, 487);
+            this.controlEnfoqueDistancia1.TabIndex = 4;
+            // 
             // FormFocus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlEnfoqueDistancia1);
             this.Controls.Add(this.controlAcercarAlejar1);
             this.Controls.Add(this.panel1);
             this.Name = "FormFocus";
@@ -137,5 +148,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel SidePanel;
         private ControlAcercarAlejar controlAcercarAlejar1;
+        private ControlEnfoqueDistancia controlEnfoqueDistancia1;
     }
 }

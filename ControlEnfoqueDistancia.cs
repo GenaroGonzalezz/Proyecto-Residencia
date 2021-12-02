@@ -19,7 +19,8 @@ namespace Therapheye
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormEnfoqueDistancia fed = new FormEnfoqueDistancia();
+            fed.ShowDialog();
         }
     }
 }

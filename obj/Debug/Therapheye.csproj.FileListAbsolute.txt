@@ -180,3 +180,5 @@ C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.csproj.CopyComplete
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeGlobo.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeCuenca.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlAcercarAlejar.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlEnfoqueDistancia.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.FormEnfoqueDistancia.resources

@@ -29,5 +29,13 @@ namespace Therapheye
             controlAcercarAlejar1.Visible = true;
             controlAcercarAlejar1.BringToFront();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button2.Height;
+            SidePanel.Top = button2.Top;
+            controlEnfoqueDistancia1.Visible = true;
+            controlEnfoqueDistancia1.BringToFront();
+        }
     }
 }

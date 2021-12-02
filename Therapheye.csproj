@@ -468,11 +468,13 @@
     <None Include="Resources\E.png" />
     <None Include="Resources\Luteina.png" />
     <None Include="Resources\Categorias %284%291.png" />
+    <None Include="Resources\59.png" />
     <Content Include="Resources\doorbell2-6450.wav" />
     <None Include="Resources\infinito.png" />
     <None Include="Resources\enfoquePulgar.png" />
     <None Include="Resources\enfoquemesa.png" />
     <None Include="Resources\enfoqueCajon.png" />
+    <None Include="Resources\flecha2.png" />
     <Content Include="Resources\outline_home_white_24dp.png" />
     <None Include="Resources\outline_info_white_24dp.png" />
   </ItemGroup>
