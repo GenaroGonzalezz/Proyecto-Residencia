@@ -84,7 +84,7 @@ namespace Therapheye
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 222);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Enfoque";
+            this.button2.Text = "Enfoque y descanso";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = true;

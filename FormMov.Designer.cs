@@ -41,12 +41,14 @@ namespace Therapheye
             this.controlAlternar1 = new Therapheye.ControlAlternar();
             this.controlInfinitocs1 = new Therapheye.ControlInfinitocs();
             this.controlRectangulo1 = new Therapheye.ControlRectangulo();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -191,6 +193,16 @@ namespace Therapheye
             this.controlRectangulo1.TabIndex = 6;
             this.controlRectangulo1.Visible = false;
             // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.SidePanel.Location = new System.Drawing.Point(7, 38);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(9, 63);
+            this.SidePanel.TabIndex = 14;
+            // 
             // FormMov
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -228,5 +240,6 @@ namespace Therapheye
         private ControlCirculo controlCirculo1;
         private ControlInfinitocs controlInfinitocs1;
         private ControlRectangulo controlRectangulo1;
+        private System.Windows.Forms.Panel SidePanel;
     }
 }

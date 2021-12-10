@@ -34,8 +34,8 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.controlAcercarAlejar1 = new Therapheye.ControlAcercarAlejar();
             this.controlEnfoqueDistancia1 = new Therapheye.ControlEnfoqueDistancia();
+            this.controlAcercarAlejar1 = new Therapheye.ControlAcercarAlejar();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,8 +73,9 @@ namespace Therapheye
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(236, 63);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Sigue con la mirada";
+            this.button3.Text = "Masaje frontal";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -104,6 +105,15 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // controlEnfoqueDistancia1
+            // 
+            this.controlEnfoqueDistancia1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlEnfoqueDistancia1.Location = new System.Drawing.Point(275, 0);
+            this.controlEnfoqueDistancia1.Name = "controlEnfoqueDistancia1";
+            this.controlEnfoqueDistancia1.Size = new System.Drawing.Size(993, 487);
+            this.controlEnfoqueDistancia1.TabIndex = 4;
+            this.controlEnfoqueDistancia1.Visible = false;
+            // 
             // controlAcercarAlejar1
             // 
             this.controlAcercarAlejar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
@@ -112,14 +122,6 @@ namespace Therapheye
             this.controlAcercarAlejar1.Size = new System.Drawing.Size(993, 487);
             this.controlAcercarAlejar1.TabIndex = 3;
             this.controlAcercarAlejar1.Visible = false;
-            // 
-            // controlEnfoqueDistancia1
-            // 
-            this.controlEnfoqueDistancia1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlEnfoqueDistancia1.Location = new System.Drawing.Point(275, 0);
-            this.controlEnfoqueDistancia1.Name = "controlEnfoqueDistancia1";
-            this.controlEnfoqueDistancia1.Size = new System.Drawing.Size(993, 487);
-            this.controlEnfoqueDistancia1.TabIndex = 4;
             // 
             // FormFocus
             // 

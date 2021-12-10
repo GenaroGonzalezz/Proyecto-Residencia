@@ -130,6 +130,12 @@
     <Compile Include="ControlMasajeCuenca.Designer.cs">
       <DependentUpon>ControlMasajeCuenca.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlMasajeFrontal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlMasajeFrontal.Designer.cs">
+      <DependentUpon>ControlMasajeFrontal.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlMasajeGlobo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -312,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMasajeCuenca.resx">
       <DependentUpon>ControlMasajeCuenca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMasajeFrontal.resx">
+      <DependentUpon>ControlMasajeFrontal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMasajeGlobo.resx">
       <DependentUpon>ControlMasajeGlobo.cs</DependentUpon>

@@ -28,6 +28,8 @@ namespace Therapheye
             SidePanel.Top = button1.Top;
             controlAcercarAlejar1.Visible = true;
             controlAcercarAlejar1.BringToFront();
+
+            controlEnfoqueDistancia1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +38,14 @@ namespace Therapheye
             SidePanel.Top = button2.Top;
             controlEnfoqueDistancia1.Visible = true;
             controlEnfoqueDistancia1.BringToFront();
+
+            controlAcercarAlejar1.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button3.Height;
+            SidePanel.Top = button3.Top;
         }
     }
 }

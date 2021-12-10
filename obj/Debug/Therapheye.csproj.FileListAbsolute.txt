@@ -182,3 +182,4 @@ C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeCuenca.r
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlAcercarAlejar.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlEnfoqueDistancia.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.FormEnfoqueDistancia.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeFrontal.resources
