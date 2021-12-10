@@ -30,6 +30,8 @@ namespace Therapheye
             controlAcercarAlejar1.BringToFront();
 
             controlEnfoqueDistancia1.Visible = false;
+            controlMasajeFrontal1.Visible = false;
+            controlMasajeSuperior1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,12 +42,32 @@ namespace Therapheye
             controlEnfoqueDistancia1.BringToFront();
 
             controlAcercarAlejar1.Visible = false;
+            controlMasajeFrontal1.Visible = false;
+            controlMasajeSuperior1.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             SidePanel.Height = button3.Height;
             SidePanel.Top = button3.Top;
+            controlMasajeFrontal1.Visible = true;
+            controlMasajeFrontal1.BringToFront();
+
+            controlAcercarAlejar1.Visible = false;
+            controlEnfoqueDistancia1.Visible = false;
+            controlMasajeSuperior1.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button4.Height;
+            SidePanel.Top = button4.Top;
+            controlMasajeSuperior1.Visible = true;
+            controlMasajeSuperior1.BringToFront();
+
+            controlAcercarAlejar1.Visible = false;
+            controlEnfoqueDistancia1.Visible = false;
+            controlMasajeFrontal1.Visible = false;
         }
     }
 }

@@ -30,18 +30,22 @@ namespace Therapheye
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.controlMasajeFrontal1 = new Therapheye.ControlMasajeFrontal();
             this.controlEnfoqueDistancia1 = new Therapheye.ControlEnfoqueDistancia();
             this.controlAcercarAlejar1 = new Therapheye.ControlAcercarAlejar();
+            this.controlMasajeSuperior1 = new Therapheye.ControlMasajeSuperior();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -52,6 +56,20 @@ namespace Therapheye
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(273, 486);
             this.panel1.TabIndex = 2;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(24, 226);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(236, 63);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Masaje frontal 2";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // SidePanel
             // 
@@ -105,6 +123,15 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // controlMasajeFrontal1
+            // 
+            this.controlMasajeFrontal1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlMasajeFrontal1.Location = new System.Drawing.Point(275, 0);
+            this.controlMasajeFrontal1.Name = "controlMasajeFrontal1";
+            this.controlMasajeFrontal1.Size = new System.Drawing.Size(993, 487);
+            this.controlMasajeFrontal1.TabIndex = 5;
+            this.controlMasajeFrontal1.Visible = false;
+            // 
             // controlEnfoqueDistancia1
             // 
             this.controlEnfoqueDistancia1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
@@ -123,11 +150,22 @@ namespace Therapheye
             this.controlAcercarAlejar1.TabIndex = 3;
             this.controlAcercarAlejar1.Visible = false;
             // 
+            // controlMasajeSuperior1
+            // 
+            this.controlMasajeSuperior1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlMasajeSuperior1.Location = new System.Drawing.Point(275, 0);
+            this.controlMasajeSuperior1.Name = "controlMasajeSuperior1";
+            this.controlMasajeSuperior1.Size = new System.Drawing.Size(993, 487);
+            this.controlMasajeSuperior1.TabIndex = 6;
+            this.controlMasajeSuperior1.Visible = false;
+            // 
             // FormFocus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.controlMasajeSuperior1);
+            this.Controls.Add(this.controlMasajeFrontal1);
             this.Controls.Add(this.controlEnfoqueDistancia1);
             this.Controls.Add(this.controlAcercarAlejar1);
             this.Controls.Add(this.panel1);
@@ -151,5 +189,8 @@ namespace Therapheye
         private System.Windows.Forms.Panel SidePanel;
         private ControlAcercarAlejar controlAcercarAlejar1;
         private ControlEnfoqueDistancia controlEnfoqueDistancia1;
+        private ControlMasajeFrontal controlMasajeFrontal1;
+        private System.Windows.Forms.Button button4;
+        private ControlMasajeSuperior controlMasajeSuperior1;
     }
 }

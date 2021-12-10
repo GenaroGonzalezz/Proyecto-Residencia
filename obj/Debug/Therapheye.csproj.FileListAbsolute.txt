@@ -129,7 +129,6 @@ C:\Users\Gena4\source\repos\Therapeye\Proyecto-Residencia\obj\Debug\Therapheye.c
 C:\Users\Gena4\source\repos\Therapeye\Proyecto-Residencia\obj\Debug\Therapheye.csproj.CopyComplete
 C:\Users\Gena4\source\repos\Therapeye\Proyecto-Residencia\obj\Debug\Therapheye.exe
 C:\Users\Gena4\source\repos\Therapeye\Proyecto-Residencia\obj\Debug\Therapheye.pdb
-C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlAlternar.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlAmsler.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlCirculo.resources
@@ -183,3 +182,5 @@ C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlAcercarAlejar.
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlEnfoqueDistancia.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.FormEnfoqueDistancia.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeFrontal.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeSuperior.resources

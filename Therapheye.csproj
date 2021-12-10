@@ -142,6 +142,12 @@
     <Compile Include="ControlMasajeGlobo.Designer.cs">
       <DependentUpon>ControlMasajeGlobo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlMasajeSuperior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlMasajeSuperior.Designer.cs">
+      <DependentUpon>ControlMasajeSuperior.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlMiopia.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -324,6 +330,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMasajeGlobo.resx">
       <DependentUpon>ControlMasajeGlobo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMasajeSuperior.resx">
+      <DependentUpon>ControlMasajeSuperior.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMiopia.resx">
       <DependentUpon>ControlMiopia.cs</DependentUpon>
