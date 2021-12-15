@@ -22,5 +22,11 @@ namespace Therapheye
             pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapeye\Resources\MasajeDedoFrontal.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void ControlMasajeFrontal_Load(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(@"C:\Users\Gena4\source\repos\Therapeye\Resources\MasajeDedoFrontal.gif");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }

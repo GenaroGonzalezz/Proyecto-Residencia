@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>1.- Acomódese en un lugar tranquilo para proceder a  una leve presión ejercida sobre el entrecejo.
+2.- Proceda con un movimiento hacia arriba desde la posición inicial hasta llegar a la frente.
+3.- Realice este movimiento repetidamente durante 20 segundos como mínimo hasta 40 segundos como máximo.</value>
+  </data>
 </root>

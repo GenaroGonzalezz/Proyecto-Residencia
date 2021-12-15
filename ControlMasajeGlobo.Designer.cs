@@ -83,10 +83,10 @@ namespace Therapheye
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(115, 374);
+            this.button3.Location = new System.Drawing.Point(27, 375);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 45);
+            this.button3.Size = new System.Drawing.Size(224, 45);
             this.button3.TabIndex = 40;
             this.button3.Text = "Reiniciar";
             this.button3.UseVisualStyleBackColor = false;
@@ -97,10 +97,10 @@ namespace Therapheye
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(278, 374);
+            this.button1.Location = new System.Drawing.Point(259, 375);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 45);
+            this.button1.Size = new System.Drawing.Size(224, 45);
             this.button1.TabIndex = 39;
             this.button1.Text = "Iniciar";
             this.button1.UseVisualStyleBackColor = false;
@@ -111,13 +111,14 @@ namespace Therapheye
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(115, 427);
+            this.button2.Location = new System.Drawing.Point(27, 428);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(318, 45);
+            this.button2.Size = new System.Drawing.Size(224, 45);
             this.button2.TabIndex = 38;
             this.button2.Text = "Salir";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
