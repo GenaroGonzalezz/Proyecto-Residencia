@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Instrucciones
-
-1.- Sientese en un lugar tranquilo para proceder a cerrar los ojos con una leve presión ejercida por los párpados
-2.- Mantenga los ojos cerrados entre 15 a 30 segundos según su nivel de fatiga.
-Durante el transcurso de este tiempo sus ojos serán rehidratados y se dará la oportunidad de relajarlos.
+    <value>1.- Sientese en un lugar tranquilo para proceder a cerrar los ojos 
+2.- Mantenga los ojos cerrados entre 15 a 30 segundos según su nivel de fatiga mientras realiza movimientos circulares sobre los párpados de sus ojos.
 3.- Abra los ojos lentamente para finalizar la actividad cuando escuche el sonido emitido por el programa. Podrá escucharlo dos veces, la primera al transcurrir 15 segundos y la segunda a los 30 segundos. 
 Puede abrir los ojos en unos de los lapsos de tiempo que usted más prefiera.</value>
   </data>

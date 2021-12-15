@@ -35,10 +35,11 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.controlMasajeSuperior1 = new Therapheye.ControlMasajeSuperior();
             this.controlMasajeFrontal1 = new Therapheye.ControlMasajeFrontal();
             this.controlEnfoqueDistancia1 = new Therapheye.ControlEnfoqueDistancia();
             this.controlAcercarAlejar1 = new Therapheye.ControlAcercarAlejar();
-            this.controlMasajeSuperior1 = new Therapheye.ControlMasajeSuperior();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,6 +124,26 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(303, 226);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(750, 36);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.Text = "Seleccione una de las opciones del menu lateral";
+            // 
+            // controlMasajeSuperior1
+            // 
+            this.controlMasajeSuperior1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlMasajeSuperior1.Location = new System.Drawing.Point(275, 0);
+            this.controlMasajeSuperior1.Name = "controlMasajeSuperior1";
+            this.controlMasajeSuperior1.Size = new System.Drawing.Size(993, 487);
+            this.controlMasajeSuperior1.TabIndex = 6;
+            this.controlMasajeSuperior1.Visible = false;
+            // 
             // controlMasajeFrontal1
             // 
             this.controlMasajeFrontal1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
@@ -150,20 +171,12 @@ namespace Therapheye
             this.controlAcercarAlejar1.TabIndex = 3;
             this.controlAcercarAlejar1.Visible = false;
             // 
-            // controlMasajeSuperior1
-            // 
-            this.controlMasajeSuperior1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlMasajeSuperior1.Location = new System.Drawing.Point(275, 0);
-            this.controlMasajeSuperior1.Name = "controlMasajeSuperior1";
-            this.controlMasajeSuperior1.Size = new System.Drawing.Size(993, 487);
-            this.controlMasajeSuperior1.TabIndex = 6;
-            this.controlMasajeSuperior1.Visible = false;
-            // 
             // FormFocus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.controlMasajeSuperior1);
             this.Controls.Add(this.controlMasajeFrontal1);
             this.Controls.Add(this.controlEnfoqueDistancia1);
@@ -177,6 +190,7 @@ namespace Therapheye
             this.Load += new System.EventHandler(this.FormFocus_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -192,5 +206,6 @@ namespace Therapheye
         private ControlMasajeFrontal controlMasajeFrontal1;
         private System.Windows.Forms.Button button4;
         private ControlMasajeSuperior controlMasajeSuperior1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -36,6 +36,7 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.controlMasajeCuenca1 = new Therapheye.ControlMasajeCuenca();
             this.controlMasajeGlobo1 = new Therapheye.ControlMasajeGlobo();
             this.controlPresionMano1 = new Therapheye.ControlPresionMano();
@@ -140,6 +141,17 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(278, 218);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(750, 36);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.Text = "Seleccione una de las opciones del menu lateral";
+            // 
             // controlMasajeCuenca1
             // 
             this.controlMasajeCuenca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
@@ -191,6 +203,7 @@ namespace Therapheye
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.controlMasajeCuenca1);
             this.Controls.Add(this.controlMasajeGlobo1);
             this.Controls.Add(this.controlPresionMano1);
@@ -204,6 +217,7 @@ namespace Therapheye
             this.Text = "Ejercicios de Presión";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -221,5 +235,6 @@ namespace Therapheye
         private ControlPresionCuenca controlPresionCuenca1;
         private ControlMasajeGlobo controlMasajeGlobo1;
         private ControlMasajeCuenca controlMasajeCuenca1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

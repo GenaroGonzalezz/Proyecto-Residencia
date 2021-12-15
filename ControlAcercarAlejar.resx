@@ -118,12 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Instrucciones
-
-1.- Sientese en un lugar tranquilo 
-2.- Mantenga los ojos cerrados entre 15 a 30 segundos según su nivel de fatiga.
-Durante el transcurso de este tiempo sus ojos serán rehidratados y se dará la oportunidad de relajarlos.
-3.- Abra los ojos lentamente para finalizar la actividad cuando escuche el sonido emitido por el programa. Podrá escucharlo dos veces, la primera al transcurrir 15 segundos y la segunda a los 30 segundos. 
-Puede abrir los ojos en unos de los lapsos de tiempo que usted más prefiera.</value>
+    <value>
+1.- Sientese en un lugar tranquilo.
+2.- Extienda uno de sus brazos frente a su rostro sosteniendo un objeto o levantando uno de sus dedos.
+3.- Enfoque la vista sobre el objeto.
+4.- Acerque flexionando su brazo y vuelva a alejarlo lentamente hasta haberlo enfocado nuevamente.
+5.- Realice este ejercicio de forma repetida de 5 a 10 veces.</value>
   </data>
 </root>

@@ -36,6 +36,7 @@ namespace Therapheye
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,9 +55,9 @@ namespace Therapheye
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.richTextBox1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 82);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 109);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 289);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 262);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // richTextBox1
@@ -105,11 +106,23 @@ namespace Therapheye
             this.label3.TabIndex = 41;
             this.label3.Text = "⚫ Tipo de actividad: Ejercicio de enfoque visual";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(21, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(159, 32);
+            this.label4.TabIndex = 44;
+            this.label4.Text = "Instrucciones:";
+            // 
             // ControlAcercarAlejar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
@@ -133,5 +146,6 @@ namespace Therapheye
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

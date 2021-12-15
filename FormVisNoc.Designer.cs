@@ -30,6 +30,7 @@ namespace Therapheye
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@ namespace Therapheye
             this.controlPelli1 = new Therapheye.ControlPelli();
             this.controlGreenwood1 = new Therapheye.ControlGreenwood();
             this.controlCirculoHorario1 = new Therapheye.ControlCirculoHorario();
-            this.SidePanel = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,16 @@ namespace Therapheye
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(267, 486);
             this.panel1.TabIndex = 0;
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
+            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.SidePanel.Location = new System.Drawing.Point(7, 69);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(9, 63);
+            this.SidePanel.TabIndex = 12;
             // 
             // button5
             // 
@@ -184,21 +195,23 @@ namespace Therapheye
             this.controlCirculoHorario1.Visible = false;
             this.controlCirculoHorario1.Load += new System.EventHandler(this.controlCirculoHorario1_Load);
             // 
-            // SidePanel
+            // textBox1
             // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
-            this.SidePanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.SidePanel.Location = new System.Drawing.Point(7, 69);
-            this.SidePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(9, 63);
-            this.SidePanel.TabIndex = 12;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(266, 218);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(750, 36);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.Text = "Seleccione una de las opciones del menu lateral";
             // 
             // FormVisNoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.controlCirculoHorario1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.controlGreenwood1);
@@ -231,5 +244,6 @@ namespace Therapheye
         private System.Windows.Forms.Button button5;
         private ControlCirculoHorario controlCirculoHorario1;
         private System.Windows.Forms.Panel SidePanel;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

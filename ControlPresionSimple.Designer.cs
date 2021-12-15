@@ -44,6 +44,7 @@ namespace Therapheye
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,9 +64,9 @@ namespace Therapheye
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.richTextBox1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 77);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 105);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 394);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(460, 366);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // richTextBox1
@@ -76,7 +77,7 @@ namespace Therapheye
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(456, 377);
+            this.richTextBox1.Size = new System.Drawing.Size(456, 358);
             this.richTextBox1.TabIndex = 27;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -193,11 +194,23 @@ namespace Therapheye
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(21, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(185, 38);
+            this.label4.TabIndex = 45;
+            this.label4.Text = "Instrucciones:";
+            // 
             // ControlPresionSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -233,5 +246,6 @@ namespace Therapheye
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label4;
     }
 }
