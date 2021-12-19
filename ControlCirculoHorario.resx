@@ -118,13 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>¿Cómo se usa?
-
-1.- Ubíquese en un entorno con mediana o baja iluminación 
+    <value>1.- Ubíquese en un entorno con mediana o baja iluminación 
 2- Regule el brillo de su pantalla a la mitad de la capacidad
 3.- Sitúese a un metro de la pantalla, aproximadamente
-3.- La prueba se realizará monocularmente, primero la realizaremos para un ojo y después para el otro, tapando siempre el ojo no examinado
-4.- Si usted utiliza compensación óptica (gafas o lentillas) para visión lejana, debe ponérselas
+4.- La prueba se realizará monocularmente, primero la realizaremos para un ojo y después para el otro, tapando siempre el ojo no examinado
+5.- Si usted utiliza compensación óptica (gafas o lentillas) para visión lejana, debe ponérselas
 * Tiene que observar la figura y determinar si ve alguna línea más nítida o definida que las demás
 
 - Si ve todas las líneas igual de definidas, es de suponer que no padece astigmatismo o que está bien compensado con la corrección óptica

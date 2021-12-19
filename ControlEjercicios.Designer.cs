@@ -51,7 +51,7 @@ namespace Therapheye
             this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 4);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(993, 487);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(993, 480);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // button1

@@ -231,7 +231,7 @@ namespace Therapheye
 
         private void pictureBox2_BackgroundImageChanged(object sender, EventArgs e)
         {
-            //if(pictureBox2.
+            
             pictureBox2.Dispose();
         }
 

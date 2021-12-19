@@ -184,3 +184,4 @@ C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.FormEnfoqueDistancia.
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeFrontal.resources
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.csproj.AssemblyReference.cache
 C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapheye.ControlMasajeSuperior.resources
+C:\Users\Gena4\source\repos\Therapeye\obj\Debug\Therapeye.Properties.Resources.resources

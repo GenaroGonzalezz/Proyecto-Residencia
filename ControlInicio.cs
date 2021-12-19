@@ -55,12 +55,13 @@ namespace Therapheye
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para brindar resultados más precisos y objetivos se recomienda llevar a cabo los ejercicios en rangos de hora específicos, los cuales se detallan en el panel adyacente. Cada columna parte de diferentes tipos de horas acorde al ciclo horario que más se acomode al usuario según sea su rutina.", "Horario de uso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("1.- Inicie realizando el cuestionario inicial en el botón 'Test Inicial'. 2.- Realiza los ejercicios presentados en la sección 'Ejercicios'. 3.- Finaliza realizando un breve cuestionario en el cual podrás describir tu experiencia tras el uso de Therapeye" , "¿Cómo se usa?", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para brindar resultados más precisos y objetivos se recomienda llevar a cabo los ejercicios en rangos de hora específicos, los cuales se detallan en el panel adyacente. Cada columna parte de diferentes tipos de horas acorde al ciclo horario que más se acomode al usuario según sea su rutina.", "Horario de uso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Investigación y Desarrollo: Cortes Chavarín Merari Livannette 17210548 y González Sepúlveda Genaro Eugenio 16212017 ", "Contacto", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

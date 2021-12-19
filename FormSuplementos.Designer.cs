@@ -159,12 +159,12 @@ namespace Therapheye
             this.richTextBox2.Cursor = System.Windows.Forms.Cursors.Default;
             this.richTextBox2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox2.Location = new System.Drawing.Point(45, 64);
+            this.richTextBox2.Location = new System.Drawing.Point(35, 45);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(193, 119);
+            this.richTextBox2.Size = new System.Drawing.Size(210, 196);
             this.richTextBox2.TabIndex = 5;
-            this.richTextBox2.Text = "- Frutas cítricas\n- Pimientos verdes\n- Brócoli\n- Papas";
+            this.richTextBox2.Text = "- Frutas cítricas\n- Pimientos verdes\n- Brócoli\n- Papas\n- Fresas\n- Melón\n- Tomate";
             // 
             // label2
             // 
@@ -255,12 +255,13 @@ namespace Therapheye
             this.richTextBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.richTextBox4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox4.Location = new System.Drawing.Point(42, 39);
+            this.richTextBox4.Location = new System.Drawing.Point(29, 39);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(174, 143);
+            this.richTextBox4.Size = new System.Drawing.Size(200, 206);
             this.richTextBox4.TabIndex = 5;
-            this.richTextBox4.Text = "- Pipas de girasol\n- Cereales intgrales\n- Aceites vegetales\n- Huevos";
+            this.richTextBox4.Text = "- Semillas de girasol\n- Cereales intgrales\n- Aceites vegetales\n- Huevos\n- Almendr" +
+    "as\n- Espinaca\n- Brócoli";
             // 
             // label4
             // 

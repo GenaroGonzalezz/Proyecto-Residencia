@@ -36,12 +36,12 @@ namespace Therapheye
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.controlCirculoHorario1 = new Therapheye.ControlCirculoHorario();
+            this.controlGreenwood1 = new Therapheye.ControlGreenwood();
             this.controlAmsler1 = new Therapheye.ControlAmsler();
             this.controlIshihara1 = new Therapheye.ControlIshihara();
             this.controlPelli1 = new Therapheye.ControlPelli();
-            this.controlGreenwood1 = new Therapheye.ControlGreenwood();
-            this.controlCirculoHorario1 = new Therapheye.ControlCirculoHorario();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +76,7 @@ namespace Therapheye
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(23, 350);
+            this.button5.Location = new System.Drawing.Point(23, 280);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(236, 63);
@@ -90,13 +90,14 @@ namespace Therapheye
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(232)))), ((int)(((byte)(186)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(23, 279);
+            this.button4.Location = new System.Drawing.Point(23, 351);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(236, 63);
             this.button4.TabIndex = 4;
             this.button4.Text = "Campo Visual";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
@@ -141,13 +142,44 @@ namespace Therapheye
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(279, 218);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(750, 36);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.Text = "Seleccione una de las opciones del menu lateral";
+            // 
+            // controlCirculoHorario1
+            // 
+            this.controlCirculoHorario1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlCirculoHorario1.Location = new System.Drawing.Point(269, 0);
+            this.controlCirculoHorario1.Name = "controlCirculoHorario1";
+            this.controlCirculoHorario1.Size = new System.Drawing.Size(997, 493);
+            this.controlCirculoHorario1.TabIndex = 5;
+            this.controlCirculoHorario1.Visible = false;
+            this.controlCirculoHorario1.Load += new System.EventHandler(this.controlCirculoHorario1_Load);
+            // 
+            // controlGreenwood1
+            // 
+            this.controlGreenwood1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
+            this.controlGreenwood1.Location = new System.Drawing.Point(269, 3);
+            this.controlGreenwood1.Margin = new System.Windows.Forms.Padding(5);
+            this.controlGreenwood1.Name = "controlGreenwood1";
+            this.controlGreenwood1.Size = new System.Drawing.Size(997, 487);
+            this.controlGreenwood1.TabIndex = 4;
+            this.controlGreenwood1.Visible = false;
+            // 
             // controlAmsler1
             // 
             this.controlAmsler1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlAmsler1.Location = new System.Drawing.Point(275, 1);
+            this.controlAmsler1.Location = new System.Drawing.Point(269, 0);
             this.controlAmsler1.Margin = new System.Windows.Forms.Padding(5);
             this.controlAmsler1.Name = "controlAmsler1";
-            this.controlAmsler1.Size = new System.Drawing.Size(980, 485);
+            this.controlAmsler1.Size = new System.Drawing.Size(999, 490);
             this.controlAmsler1.TabIndex = 3;
             this.controlAmsler1.Visible = false;
             this.controlAmsler1.Load += new System.EventHandler(this.controlAmsler1_Load);
@@ -155,7 +187,7 @@ namespace Therapheye
             // controlIshihara1
             // 
             this.controlIshihara1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlIshihara1.Location = new System.Drawing.Point(268, 1);
+            this.controlIshihara1.Location = new System.Drawing.Point(269, 1);
             this.controlIshihara1.Margin = new System.Windows.Forms.Padding(5);
             this.controlIshihara1.Name = "controlIshihara1";
             this.controlIshihara1.Size = new System.Drawing.Size(999, 485);
@@ -175,49 +207,18 @@ namespace Therapheye
             this.controlPelli1.Visible = false;
             this.controlPelli1.Load += new System.EventHandler(this.controlPelli1_Load);
             // 
-            // controlGreenwood1
-            // 
-            this.controlGreenwood1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlGreenwood1.Location = new System.Drawing.Point(271, 2);
-            this.controlGreenwood1.Margin = new System.Windows.Forms.Padding(5);
-            this.controlGreenwood1.Name = "controlGreenwood1";
-            this.controlGreenwood1.Size = new System.Drawing.Size(997, 487);
-            this.controlGreenwood1.TabIndex = 4;
-            this.controlGreenwood1.Visible = false;
-            // 
-            // controlCirculoHorario1
-            // 
-            this.controlCirculoHorario1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(68)))));
-            this.controlCirculoHorario1.Location = new System.Drawing.Point(271, 0);
-            this.controlCirculoHorario1.Name = "controlCirculoHorario1";
-            this.controlCirculoHorario1.Size = new System.Drawing.Size(997, 493);
-            this.controlCirculoHorario1.TabIndex = 5;
-            this.controlCirculoHorario1.Visible = false;
-            this.controlCirculoHorario1.Load += new System.EventHandler(this.controlCirculoHorario1_Load);
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(266, 218);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(750, 36);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "Seleccione una de las opciones del menu lateral";
-            // 
             // FormVisNoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 486);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.controlCirculoHorario1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.controlPelli1);
+            this.Controls.Add(this.controlCirculoHorario1);
             this.Controls.Add(this.controlGreenwood1);
             this.Controls.Add(this.controlAmsler1);
             this.Controls.Add(this.controlIshihara1);
-            this.Controls.Add(this.controlPelli1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormVisNoc";
             this.ShowIcon = false;

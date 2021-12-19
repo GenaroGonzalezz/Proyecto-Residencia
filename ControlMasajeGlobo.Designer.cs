@@ -75,7 +75,7 @@ namespace Therapheye
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(456, 285);
+            this.richTextBox1.Size = new System.Drawing.Size(456, 252);
             this.richTextBox1.TabIndex = 27;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 

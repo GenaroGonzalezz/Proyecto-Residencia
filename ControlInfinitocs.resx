@@ -118,11 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>
-
-Mantén la cabeza recta mientras estás sentad@. Dirige la mirada lo más lejos que puedas y mantenga sus ojos realizando un movimiento en 8 durante 5 segundos. Repite el ejercicio tres veces. También puedes moverlos teniéndolos cerrados.
+    <value>Mantén la cabeza recta mientras estás sentad@. Dirige la mirada lo más lejos que puedas y mantenga sus ojos realizando un movimiento en 8 durante 5 segundos. Repite el ejercicio tres veces. También puedes moverlos teniéndolos cerrados.
 También puedes utilizar los recursos disponibles en los botones inferiores para acceder a ejercicios gráficos.
 1.- Entrecierre sus ojos.
-2.- Fije la vista en el punto azul hasta finalizar el tiempo del contador.</value>
+2.- Fije la vista en el punto azul y síguelo durante 5 segundos. 
+Los resultados varían según las dimensiones de la pantalla.</value>
   </data>
 </root>

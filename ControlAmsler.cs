@@ -27,5 +27,10 @@ namespace Therapheye
         {
             FormVisNoc.ActiveForm.Close();
         }
+
+        private void ControlAmsler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

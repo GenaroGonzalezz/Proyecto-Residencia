@@ -68,7 +68,7 @@ namespace Therapheye
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(456, 285);
+            this.richTextBox1.Size = new System.Drawing.Size(456, 258);
             this.richTextBox1.TabIndex = 27;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -91,9 +91,9 @@ namespace Therapheye
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(21, 388);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(349, 32);
+            this.label2.Size = new System.Drawing.Size(363, 32);
             this.label2.TabIndex = 40;
-            this.label2.Text = "⚫ Duración: 15 - 30 segundos";
+            this.label2.Text = "⚫ Duración: 5 - 10 repeticiones";
             // 
             // label3
             // 

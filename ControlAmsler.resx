@@ -118,8 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>¿Cómo se usa?
-Se trata de una prueba para detectar síntomas de la degeneración macular o cataratas, para realizar esta prueba por favor realice lo que se le indica a continuación:
+    <value>Se trata de una prueba para detectar síntomas de la degeneración macular o cataratas, para realizar esta prueba por favor realice lo que se le indica a continuación:
 1.- Haga clic en el botón "Iniciar" para visualizar la rejilla
 2.- Con una buena luz, mire la rejilla desde una distancia de 30–40 centímetros. 
 3.- Cúbrase un ojo. Mire directamente hacia el punto del centro de la rejilla con el ojo descubierto. Preste atención a si alguna de las líneas se ve doblada u ondulada. Verifique si la cuadrícula se ve borrosa, opaca o distorsionada.

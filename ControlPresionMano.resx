@@ -118,12 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>
-1.- Sientese en un lugar tranquilo para proceder a frotar sus manos durante unos segundos para generar calor en sus palmas.
- 2.- Cierre los ojos y coloque las palmas de sus manos sobrbe los parpados ejerciendo una leve presión.
-2.- Mantenga los ojos cerrados entre 10 a 20 segundos según su nivel de fatiga.
+    <value>1.- Sientese en un lugar tranquilo para proceder a frotar sus manos durante unos segundos para generar calor en sus palmas.
+2.- Cierre los ojos y coloque las palmas de sus manos sobrbe los parpados ejerciendo una leve presión.
+3.- Mantenga los ojos cerrados entre 10 a 20 segundos según su nivel de fatiga.
 Durante el transcurso de este tiempo sus ojos serán rehidratados y se dará la oportunidad de relajarlos.
-3.- Abra los ojos lentamente para finalizar la actividad cuando escuche el sonido emitido por el programa. Podrá escucharlo dos veces, la primera al transcurrir 15 segundos y la segunda a los 30 segundos. 
+4.- Abra los ojos lentamente para finalizar la actividad cuando escuche el sonido emitido por el programa. Podrá escucharlo dos veces, la primera al transcurrir 15 segundos y la segunda a los 30 segundos. 
 Puede abrir los ojos en unos de los lapsos de tiempo que usted más prefiera.</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

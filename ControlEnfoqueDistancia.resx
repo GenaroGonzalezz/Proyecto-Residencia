@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Instrucciones
-
-1.- Sientese en un lugar tranquilo 
-2.- Mantenga los ojos cerrados entre 15 a 30 segundos según su nivel de fatiga.
-Durante el transcurso de este tiempo sus ojos serán rehidratados y se dará la oportunidad de relajarlos.
-3.- Abra los ojos lentamente para finalizar la actividad cuando escuche el sonido emitido por el programa. Podrá escucharlo dos veces, la primera al transcurrir 15 segundos y la segunda a los 30 segundos. 
-Puede abrir los ojos en unos de los lapsos de tiempo que usted más prefiera.</value>
+    <value>1.- Sientese en un lugar tranquilo 
+2.- Visualice su entorno en busca de dos objetos lejanos.
+3.- Inicie enfocando su dedo pulgar con el brazo extendido o un objeto  sostenido por su mano alrededor de 15 a 20 centímetros de distancia desde sus ojos.
+4.- Proceda a enfocar otro objeto a una distancia aproximada de 3 - 6 metros.
+5.- Finalice enfocando el tercer objeto ubicado a mas de 6 metros de distancia.
+Durante el transcurso de este ejercicio pondrá a prueba la capacidad de enfoque en sus ojos y los ejercitará mediante la repetición de la actividad.
+Puede visualizar el ejemplo para una explicación más detallada.</value>
   </data>
 </root>

@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>1.- Acomódese en un lugar tranquilo
+2.- Sujete dos objetos, uno en cada mano, sepáralos del cuerpo, a la altura de los hombros, y mira uno, para después pasar a mirar el otro.
+Repite el cambio de la vista en el objeto 10 veces o más. 
+Esto te permitirá poner a prueba los músculos involucrados en el movimiento de los globos oculares, así mismo, ejercitándolos.</value>
+  </data>
 </root>

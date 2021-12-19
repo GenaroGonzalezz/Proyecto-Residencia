@@ -227,6 +227,11 @@ namespace Therapheye
             button4.BackColor = Color.FromArgb(0, 56, 68);
             button4.ForeColor = Color.White;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://support.microsoft.com/es-es/windows/configura-la-pantalla-para-la-noche-en-windows-18fe903a-e0a1-8326-4c68-fd23d7aaf136#Category=Windows_10");
+        }
     }
    
 }
